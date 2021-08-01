@@ -1,0 +1,21 @@
+{
+    "name": "gotthard-theme",
+    "displayName": "gotthard-theme",
+    "description": "Gotthard Theme Description",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gotthard",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Gotthard-color-theme.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+@use "sass:math";
+
+$color: #123456;
+
+.a-button {
+  .a-button__text {
+    color: $color;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+  }
+
+  @if $color {
+    color: $color;
+  } @else {
+    color: red;
+  }
+}
