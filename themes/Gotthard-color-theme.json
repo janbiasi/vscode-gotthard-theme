@@ -6,13 +6,16 @@
     // main editor view
     "editor.background": "#090B0B",
     "editor.foreground": "#E9EDED",
+    "editorGroupHeader.tabsBackground": "#090B0B",
+    "editorGroupHeader.border": "#1D201F",
+    "editorGroupHeader.tabsBorder": "#1D201F",
     "editorGroup.border": "#1D201F",
 
     // main tabs
     "tab.border": "#090B0B",
     "tab.activeBackground": "#090B0B",
-    "tab.activeForeground": "#9CAB9E",
-    "tab.inactiveForeground": "#3B403D",
+    "tab.activeForeground": "#E9EDED",
+    "tab.inactiveForeground": "#E9EDED",
     "tab.unfocusedInactiveForeground": "#ff0000",
     "tab.inactiveBackground": "#1D201F",
     "tab.activeModifiedBorder": "#E9B44C",
@@ -39,6 +42,8 @@
     // status bar (the bottom bar)
     "statusBar.background": "#9CAB9E",
     "statusBar.foreground": "#090B0B",
+    "statusBar.debuggingBackground": "#AB6369",
+    "statusBar.debuggingForeground": "#E9EDED",
 
     // activity bar (where scm, search, etc. lives in)
     "activityBar.background": "#090B0B",
@@ -61,7 +66,11 @@
     // icons
     "problemsErrorIcon.foreground": "#AB6369",
     "problemsInfoIcon.foreground": "#6F98B3",
-    "problemsWarningIcon.foreground": "#CAAB6D"
+    "problemsWarningIcon.foreground": "#CAAB6D",
+
+    "notifications.background": "#161817",
+    "notifications.border": "#1D201F",
+    "button.background": "#9CAB9E"
   },
   "tokenColors": [
     {
