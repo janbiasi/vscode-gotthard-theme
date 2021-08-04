@@ -2,6 +2,12 @@ package com.microsoft.fixture.vscode.theme;
 
 import com.spring.asdf;
 
+interface BaseController {
+    String getTest();
+}
+
+abstract class Controller {}
+
 /**
  * Basic JavaDoc stuffz
  * 
@@ -9,8 +15,12 @@ import com.spring.asdf;
  * @version 1.0
  */
 @Slf4j
-@RestController
-class JavaController {
+@RestController("/api/v1")
+class JavaController extends Controller implements BaseController {
+
+    private final int code = 1000;
+
+    private List<String> = new ArrayList<>();
     
     // This is a comment
 

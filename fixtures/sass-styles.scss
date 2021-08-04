@@ -2,6 +2,10 @@
 
 $color: #123456;
 
+#app {
+  color: rgba(255, 255, 255, 1);
+}
+
 .a-button {
   .a-button__text {
     color: $color;

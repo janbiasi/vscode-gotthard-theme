@@ -3,60 +3,99 @@
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
   "colors": {
+    "focusBorder": "#E9B44C",
+
+    // scrollbars
+    "scrollbarSlider.background": "#191919",
+    "scrollbarSlider.activeBackground": "#292929",
+    "scrollbarSlider.hoverBackground": "#292929",
+
+    // generic lists
+    "list.errorForeground": "#AB6369",
+    "list.invalidItemForeground": "#CAAB6D",
+    "list.warningForeground": "#CAAB6D",
+    "list.hoverBackground": "#191919",
+    "list.activeSelectionBackground": "#191919",
+
+    // buttons
+    "button.background": "#191919",
+    "button.hoverBackground": "#292929",
+
     // main editor view
-    "editor.background": "#090B0B",
-    "editor.foreground": "#E9EDED",
-    "editorGroupHeader.tabsBackground": "#090B0B",
-    "editorGroupHeader.border": "#1D201F",
-    "editorGroupHeader.tabsBorder": "#1D201F",
-    "editorGroup.border": "#1D201F",
+    "editor.background": "#000000",
+    "editor.foreground": "#F5F5F5",
+    "editor.wordHighlightBackground": "#292929",
+    "editor.selectionBackground": "#292929",
+    "editor.selectionHighlightBackground": "#292929",
+    "editor.selectionHighlightBorder": "#707070",
+    "editor.findMatchBackground": "#292929",
+    "editor.findMatchBorder": "#707070",
+
+    // editor groups
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorGroupHeader.border": "#191919",
+    "editorGroupHeader.tabsBorder": "#191919",
+    "editorGroup.border": "#191919",
+
+    // editor hints
+    "editorError.foreground": "#ab6369",
+    "editorWarning.foreground": "#caab6d",
+    "editorInfo.foreground": "#6f98b3",
+
+    // minimap view
+    "minimap.background": "#000000",
+    "minimapSlider.background": "#141414",
 
     // debugger breakpoints
     "debugIcon.breakpointForeground": "#AB6369",
     "debugIcon.breakpointDisabledForeground": "#1D201F",
 
     // main tabs
-    "tab.border": "#090B0B",
-    "tab.activeBackground": "#090B0B",
-    "tab.activeForeground": "#E9EDED",
-    "tab.inactiveForeground": "#E9EDED",
+    "tab.border": "#1F1F1F",
+    "tab.activeBackground": "#000000",
+    "tab.activeForeground": "#F5F5F5",
+    "tab.inactiveForeground": "#999999",
+    "tab.inactiveBackground": "#191919",
     "tab.unfocusedInactiveForeground": "#ff0000",
-    "tab.inactiveBackground": "#1D201F",
     "tab.activeModifiedBorder": "#E9B44C",
     "tab.inactiveModifiedBorder": "#E9B44C",
     "tab.unfocusedActiveModifiedBorder": "#E9B44C",
     "tab.unfocusedInactiveModifiedBorder": "#E9B44C",
 
     // sidebar
-    "sideBar.background": "#090B0B",
-    "sideBar.border": "#1D201F",
-    "sideBarTitle.foreground": "#E9EDED",
-    "sideBarSectionHeader.background": "#151919",
+    "sideBar.background": "#000000",
+    "sideBar.border": "#191919",
+    "sideBarTitle.foreground": "#F5F5F5",
+    "sideBarSectionHeader.background": "#191919",
 
     // title bar (where the settings in windows are + title)
-    "titleBar.activeBackground": "#090B0B",
-    "titleBar.activeForeground": "#E9EDED",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#F5F5F5",
+    "titleBar.border": "#191919",
 
     // action panel (eg. terminal)
-    "panel.background": "#090B0B",
+    "panel.background": "#000000",
 
-    // menu
-    "menu.background": "#090B0B",
+    // menu (dropdowns at the top)
+    "menu.background": "#000000",
+    "menu.border": "#191919",
+    "menu.separatorBackground": "#707070",
 
     // status bar (the bottom bar)
-    "statusBar.background": "#9CAB9E",
-    "statusBar.foreground": "#090B0B",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#f5f5f5",
+    "statusBar.border": "#191919",
     "statusBar.debuggingBackground": "#AB6369",
-    "statusBar.debuggingForeground": "#E9EDED",
+    "statusBar.debuggingForeground": "#f5f5f5",
 
     // activity bar (where scm, search, etc. lives in)
-    "activityBar.background": "#090B0B",
-    "activityBar.foreground": "#9CAB9E",
-    "activityBar.inactiveForeground": "#3B403D",
-    "activityBar.activeBorder": "#9CAB9E",
-    "activityBar.border": "#1D201F",
-    "activityBarBadge.foreground": "#090B0B",
-    "activityBarBadge.background": "#E9B44C",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#f5f5f5",
+    "activityBar.inactiveForeground": "#707070",
+    "activityBar.activeBorder": "#f5f5f5",
+    "activityBar.border": "#1F1F1F",
+    "activityBarBadge.foreground": "#f5f5f5",
+    "activityBarBadge.background": "#836781",
 
     // source management control
     "gitDecoration.addedResourceForeground": "#81B19B",
@@ -72,9 +111,11 @@
     "problemsInfoIcon.foreground": "#6F98B3",
     "problemsWarningIcon.foreground": "#CAAB6D",
 
-    "notifications.background": "#161817",
-    "notifications.border": "#1D201F",
-    "button.background": "#9CAB9E"
+    // notifications
+    "notifications.background": "#000000",
+    "notifications.border": "#191919",
+    "notificationCenter.border": "#191919",
+    "notificationLink.foreground": "#CAAB6D"
   },
   "tokenColors": [
     {
@@ -317,20 +358,7 @@
         "foreground": "#FFCB6B"
       }
     },
-    {
-      "name": "CSS Classes",
-      "scope": ["entity.other.attribute-name.class"],
-      "settings": {
-        "foreground": "#FFCB6B"
-      }
-    },
-    {
-      "name": "CSS ID's",
-      "scope": ["source.sass keyword.control"],
-      "settings": {
-        "foreground": "#82AAFF"
-      }
-    },
+
     {
       "name": "Inserted",
       "scope": ["markup.inserted"],
@@ -394,87 +422,33 @@
         "foreground": "#FF5370"
       }
     },
+
+    // JSON
     {
-      "name": "JSON Key - Level 0",
+      "name": "JSON - Keys",
       "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary support.type.property-name",
+        "source.json punctuation.support.type.property-name.begin",
+        "source.json punctuation.support.type.property-name.end"
       ],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#B19DB4"
       }
     },
     {
-      "name": "JSON Key - Level 1",
+      "name": "JSON - Values",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json string",
+        "source.json meta.structure.dictionary punctuation",
+        "source.json meta.structure.dictionary punctuation.definition.string.begin",
+        "source.json meta.structure.dictionary punctuation.definition.string.end"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#F5F5F5"
       }
     },
-    {
-      "name": "JSON Key - Level 2",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#F78C6C"
-      }
-    },
-    {
-      "name": "JSON Key - Level 3",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#FF5370"
-      }
-    },
-    {
-      "name": "JSON Key - Level 4",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#C17E70"
-      }
-    },
-    {
-      "name": "JSON Key - Level 5",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "JSON Key - Level 6",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#f07178"
-      }
-    },
-    {
-      "name": "JSON Key - Level 7",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#C792EA"
-      }
-    },
-    {
-      "name": "JSON Key - Level 8",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#C3E88D"
-      }
-    },
+
+    // Markdown
     {
       "name": "Markdown - Plain",
       "scope": [
@@ -640,6 +614,7 @@
         "foreground": "#EEFFFF"
       }
     },
+
     // Custom: Specific overrides
     {
       "name": "Terminator Semicolon",
@@ -648,6 +623,26 @@
         "foreground": "#D2D2D2"
       }
     },
+
+    // Custom: HTML
+    {
+      "name": "HTML - Tags",
+      "scope": ["entity.name.tag.html"],
+      "settings": {
+        "foreground": "#836781"
+      }
+    },
+    {
+      "name": "HTML - Tag begin and end",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#707070"
+      }
+    },
+
     // Custom: TypeScript
     {
       "name": "TypeScript - Named Import",
@@ -657,12 +652,43 @@
       }
     },
     {
-      "name": "TypeScript - Type Declaration",
-      "scope": ["meta.type.annotation.tsx", "meta.interface.tsx"],
+      "name": "TypeScript - Type Declaration, Enum and Annotations",
+      "scope": [
+        "meta.type.annotation.tsx",
+        "meta.interface.tsx",
+        "meta.parameter.object-binding-pattern.tsx variable"
+      ],
       "settings": {
         "foreground": "#81B19B"
       }
     },
+    {
+      "name": "TypeScript - Null and Undefined",
+      "scope": [
+        "constant.language.undefined.tsx",
+        "constant.language.null.tsx"
+      ],
+      "settings": {
+        "foreground": "#ab6369"
+      }
+    },
+    {
+      "name": "TypeScript - This",
+      "scope": ["variable.language.this.ts"],
+      "settings": {
+        "foreground": "#81b19b",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TypeScript - Enum property",
+      "scope": ["variable.other.constant.property.tsx"],
+      "settings": {
+        "foreground": "#6F98B3",
+        "fontStyle": "bold"
+      }
+    },
+
     // Custom: React
     {
       "name": "React - Block",
@@ -672,13 +698,31 @@
       }
     },
     {
-      "name": "React - JSX",
+      "name": "React - JSX Tags",
       "scope": [
         "punctuation.definition.tag.begin.tsx",
         "punctuation.definition.tag.end.tsx"
       ],
       "settings": {
-        "foreground": "#CAAB6D"
+        "foreground": "#707070"
+      }
+    },
+    {
+      "name": "React - JSX HTML Attributes",
+      "scope": [
+        "meta.tag.attributes.tsx string",
+        "meta.tag.attributes.tsx punctuation.definition.string.begin.tsx",
+        "meta.tag.attributes.tsx punctuation.definition.string.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#6F98B3"
+      }
+    },
+    {
+      "name": "React- Children",
+      "scope": ["source.tsx meta.jsx.children.tsx"],
+      "settings": {
+        "foreground": "#FAFAFA"
       }
     },
 
@@ -691,6 +735,26 @@
       ],
       "settings": {
         "foreground": "#D2D2D2"
+      }
+    },
+    {
+      "name": "CSS Classes",
+      "scope": [
+        "source.css.scss entity.other.attribute-name.class",
+        "source.css.scss entity.other.attribute-name.class.css punctuation"
+      ],
+      "settings": {
+        "foreground": "#CAAB6D"
+      }
+    },
+    {
+      "name": "CSS ID's",
+      "scope": [
+        "source.css.scss entity.other.attribute-name.id.css",
+        "source.css.scss entity.other.attribute-name.id.css punctuation"
+      ],
+      "settings": {
+        "foreground": "#AB6369"
       }
     },
     {
@@ -761,18 +825,6 @@
       }
     },
     {
-      "name": "Java - Annotation",
-      "scope": [
-        "punctuation.definition.annotation.java",
-        "meta.declaration.annotation.java",
-        "storage.type.annotation.java",
-        "meta.declaration.annotation.java"
-      ],
-      "settings": {
-        "foreground": "#81B19B"
-      }
-    },
-    {
       "name": "Java - Storage Type",
       "scope": ["storage.type.java"],
       "settings": {
@@ -794,6 +846,42 @@
       "scope": ["storage.modifier.java"],
       "settings": {
         "foreground": "#836781"
+      }
+    },
+    {
+      "name": "Java - Class",
+      "scope": ["meta.class.identifier.java storage.modifier.java"],
+      "settings": {
+        "foreground": "#B19DB4"
+      }
+    },
+    {
+      "name": "Java - Class Inheritance",
+      "scope": ["entity.other.inherited-class.java"],
+      "settings": {
+        "foreground": "#81B19B"
+      }
+    },
+    {
+      "name": "Java - Interface extension",
+      "scope": [
+        "storage.modifier.extends.java",
+        "storage.modifier.implements.java"
+      ],
+      "settings": {
+        "foreground": "#836781"
+      }
+    },
+    {
+      "name": "Java - Annotation",
+      "scope": [
+        "punctuation.definition.annotation.java",
+        "meta.declaration.annotation.java",
+        "storage.type.annotation.java",
+        "meta.declaration.annotation.java"
+      ],
+      "settings": {
+        "foreground": "#81B19B"
       }
     },
 
