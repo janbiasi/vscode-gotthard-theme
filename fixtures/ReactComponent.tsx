@@ -6,6 +6,8 @@ interface ButtonProps {
   hoverTitle?: string;
 }
 
+// Inline comment test
+
 /**
  * This is a simple button component
  * --> and can do something fancy!

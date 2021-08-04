@@ -11,6 +11,10 @@
     "editorGroupHeader.tabsBorder": "#1D201F",
     "editorGroup.border": "#1D201F",
 
+    // debugger breakpoints
+    "debugIcon.breakpointForeground": "#AB6369",
+    "debugIcon.breakpointDisabledForeground": "#1D201F",
+
     // main tabs
     "tab.border": "#090B0B",
     "tab.activeBackground": "#090B0B",
@@ -77,8 +81,15 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#546E7A"
+        "fontStyle": "",
+        "foreground": "#5C6666"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#D2D2D2"
       }
     },
     {
@@ -121,7 +132,6 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "punctuation",
         "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
@@ -137,8 +147,11 @@
       }
     },
     {
-      "name": "Punctuation specific",
-      "scope": ["punctuation"],
+      "name": "Punctuation - String start and end",
+      "scope": [
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end"
+      ],
       "settings": {
         "foreground": "#CAAB6D"
       }
@@ -668,6 +681,7 @@
         "foreground": "#CAAB6D"
       }
     },
+
     // Custom: CSS
     {
       "name": "CSS - Brackets",
@@ -706,6 +720,17 @@
         "foreground": "#CAAB6D"
       }
     },
+    {
+      "name": "CSS - Colors",
+      "scope": [
+        "constant.other.color.rgb-value.hex.css",
+        "constant.other.color.rgb-value.hex.css punctuation"
+      ],
+      "settings": {
+        "foreground": "#B89784"
+      }
+    },
+
     // Custom: SCSS
     {
       "name": "SCSS - Expressions",
@@ -726,7 +751,15 @@
         "foreground": "#6F98B3"
       }
     },
+
     // Custom: Java
+    {
+      "name": "Java - Default code",
+      "scope": ["source.java"],
+      "settings": {
+        "foreground": "#D2D2D2"
+      }
+    },
     {
       "name": "Java - Annotation",
       "scope": [
@@ -754,6 +787,45 @@
       ],
       "settings": {
         "foreground": "#6F98B3"
+      }
+    },
+    {
+      "name": "Java - Modifiers",
+      "scope": ["storage.modifier.java"],
+      "settings": {
+        "foreground": "#836781"
+      }
+    },
+
+    // Custom: Doc Comments (JavaDoc, TypeDoc)
+    {
+      "name": "Comment Annotations",
+      "scope": [
+        "comment punctuation",
+        "keyword.other.documentation.javadoc.java"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#B19DB4"
+      }
+    },
+    {
+      "name": "Comment Variables",
+      "scope": [
+        "comment variable",
+        "comment.block.javadoc.java variable.parameter"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#81B19B"
+      }
+    },
+    {
+      "name": "Comment Links",
+      "scope": ["comment variable.other.link"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#899494"
       }
     }
   ]

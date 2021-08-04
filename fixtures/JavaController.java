@@ -2,10 +2,18 @@ package com.microsoft.fixture.vscode.theme;
 
 import com.spring.asdf;
 
+/**
+ * Basic JavaDoc stuffz
+ * 
+ * @author Jan Biasi
+ * @version 1.0
+ */
 @Slf4j
 @RestController
 class JavaController {
     
+    // This is a comment
+
     @GetMapping("/test")
     public String getTest() {
         return "Hello World!";
@@ -18,5 +26,13 @@ class JavaController {
                 return true;
             })
             .forEach(str -> System.out.println("forEach: " + str));
+    }
+
+    /**
+     * JavaDoc example
+     * @param input Simple string input
+     */
+    private String returnTheSame(String input) {
+        return input;
     }
 }
