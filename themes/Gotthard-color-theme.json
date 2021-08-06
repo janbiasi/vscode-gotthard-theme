@@ -95,8 +95,8 @@
     "editorInfo.foreground": "#6f98b3",
 
     // editor states
-    "editorUnnecessaryCode.border": "#CAAB6D",
-    "editorUnnecessaryCode.opacity": "#000000c0",
+    // TODO: High contrast "editorUnnecessaryCode.border": "#CAAB6D",
+    "editorUnnecessaryCode.opacity": "#19191975",
     "editorOverviewRuler.errorForeground": "#1eff00",
     // "editorError.border": "#AB6369",
 
@@ -425,7 +425,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#FAFAFA"
       }
     },
     {
@@ -894,7 +894,7 @@
       }
     },
     {
-      "name": "CSS Classes",
+      "name": "CSS - Classes",
       "scope": [
         "source.css.scss entity.other.attribute-name.class",
         "source.css.scss entity.other.attribute-name.class.css punctuation"
@@ -904,7 +904,7 @@
       }
     },
     {
-      "name": "CSS ID's",
+      "name": "CSS - ID's",
       "scope": [
         "source.css.scss entity.other.attribute-name.id.css",
         "source.css.scss entity.other.attribute-name.id.css punctuation"
@@ -923,8 +923,9 @@
     {
       "name": "CSS - Property value",
       "scope": [
-        "meta.property-value.scss",
-        "support.constant.property-value.css"
+        "source.css.scss keyword.other.unit",
+        "source.css.scss meta.property-value",
+        "source.css.scss support.constant.property-value"
       ],
       "settings": {
         "foreground": "#D2D2D2"
@@ -947,7 +948,21 @@
         "constant.other.color.rgb-value.hex.css punctuation"
       ],
       "settings": {
-        "foreground": "#B89784"
+        "foreground": "#FAFAFA"
+      }
+    },
+    {
+      "name": "CSS - Pseudos",
+      "scope": ["source.css.scss entity.other.attribute-name.pseudo-element"],
+      "settings": {
+        "foreground": "#b89784"
+      }
+    },
+    {
+      "name": "CSS - Functions",
+      "scope": ["source.css.scss support.function.misc"],
+      "settings": {
+        "foreground": "#836781"
       }
     },
 
@@ -955,9 +970,9 @@
     {
       "name": "SCSS - Expressions",
       "scope": [
-        "keyword.control.at-rule.use.scss",
-        "meta.at-rule.use.scss",
-        "punctuation.definition.keyword.scss",
+        "source.css.scss keyword.control.at-rule.use",
+        "source.css.scss meta.at-rule.use",
+        "source.css.scss punctuation.definition.keyword",
         "source.css.scss keyword.control"
       ],
       "settings": {
@@ -969,6 +984,16 @@
       "scope": ["variable.scss"],
       "settings": {
         "foreground": "#6F98B3"
+      }
+    },
+    {
+      "name": "SCSS - Interpolation",
+      "scope": [
+        "source.css.scss punctuation.definition.interpolation.begin.bracket.curly",
+        "source.css.scss punctuation.definition.interpolation.end.bracket.curly"
+      ],
+      "settings": {
+        "foreground": "#81B19B"
       }
     },
 

@@ -3,7 +3,7 @@
 $color: #123456;
 
 #app {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.25);
 }
 
 .a-button {
@@ -13,6 +13,7 @@ $color: #123456;
 
   &::after {
     content: "";
+    left: calc(100% - #{math.min(0, 20) * 1px});
     margin: 0 auto;
     display: block;
   }
@@ -21,5 +22,9 @@ $color: #123456;
     color: $color;
   } @else {
     color: red;
+  }
+
+  @media all and (min-width: 1920px) {
+    display: block;
   }
 }
