@@ -17,5 +17,10 @@
                 "path": "./themes/Gotthard-color-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "eta": "^1.12.3",
+        "ts-node": "^10.1.0",
+        "typescript": "^4.3.5"
     }
 }
