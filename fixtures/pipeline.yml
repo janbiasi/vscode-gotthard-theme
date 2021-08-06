@@ -3,6 +3,16 @@ image: node:10.15.0
 pipelines:
   default:
     - step:
+      name: Alert Opsgenie
+      script:
+        - pipe: atlassian/opsgenie-send-alert:0.2.0
+          variables:
+            GENIE_KEY: $GENIE_KEY
+            MESSAGE: "Danger, Will Robinson!"
+            DESCRIPTION: "An Opsgenie alert sent from Bitbucket Pipelines"
+            SOURCE: "Bitbucket Pipelines"
+            PRIORITY: "P1"
+    - step:
         name: Build and test
         script:
           - npm install

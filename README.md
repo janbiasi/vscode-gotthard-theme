@@ -23,6 +23,7 @@
 - Shell
 - SQL
 - TypeScript
+- YAML
 
 #### Pending optimizations
 

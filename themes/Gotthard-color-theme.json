@@ -573,6 +573,29 @@
       }
     },
 
+    // YAML
+    {
+      "name": "YAML - Tag",
+      "scope": ["source.yaml entity.name.tag"],
+      "settings": {
+        "foreground": "#836781"
+      }
+    },
+    {
+      "name": "YAML - Outs",
+      "scope": ["source.yaml string.unquoted.plain.out"],
+      "settings": {
+        "foreground": "#FAFAFA"
+      }
+    },
+    {
+      "name": "YAML - Control Flow Keywords",
+      "scope": ["source.yaml keyword.control.flow"],
+      "settings": {
+        "foreground": "#81b19b"
+      }
+    },
+
     // Markdown
     {
       "name": "Markdown - Plain",
