@@ -1,5 +1,5 @@
 {
-  "name": "package",
+  "name": "fixtures",
   "version": "1.0.0",
   "public": true,
   "custom": 15123,
@@ -8,6 +8,18 @@
     "build": "rollup -c rollup.config.js"
   },
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "vue": "^2.6.14"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/react": "^17.0.16",
+    "typescript": "^4.3.5"
   }
 }

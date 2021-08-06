@@ -1,4 +1,4 @@
-class MyService {
+export class MyService {
   protected someThingElse: string[] = [];
 
   private url: string;

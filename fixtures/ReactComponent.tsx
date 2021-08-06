@@ -1,4 +1,11 @@
-import React, { MouseEvent, forwardRef, useEffect, useCallback } from "react";
+import React, {
+  MouseEvent,
+  forwardRef,
+  useEffect,
+  useCallback,
+  FC,
+} from "react";
+import { MyService } from "./Other";
 
 export enum ButtonType {
   PRIMARY,
@@ -16,7 +23,7 @@ const someGenericFunction = <T extends string>(input: T) => {
   return input.toUpperCase();
 };
 
-const SubComponent = () => <p>Component</p>;
+export const SubComponent: FC<{}> = () => <p>Component</p>;
 
 export const objectExample = {
   property: "Hello World",
@@ -27,6 +34,10 @@ export const objectExample = {
 };
 
 // Inline comment test
+const service = new MyService();
+
+// This is for error testing
+Object.someMethodThatDoesNotExist();
 
 /**
  * This is a simple button component
@@ -44,17 +55,18 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
 
     const onMouseOver = useCallback(
       (ev: MouseEvent<HTMLButtonElement>) => {
-        alert("Hovered!" + ev.name);
+        alert("Hovered!" + ev.type);
       },
       [title]
     );
 
     return (
       <button
-        className={type}
+        key="test"
+        className={`button ${type}`}
         ref={ref}
         onClick={onClick}
-        alt={hoverTitle || ""}
+        title={hoverTitle || ""}
         onMouseOver={(ev) => {
           onMouseOver(ev);
         }}
