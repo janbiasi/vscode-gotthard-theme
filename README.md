@@ -23,11 +23,12 @@
 - Shell
 - SQL
 - TypeScript
+- XML
 - YAML
 
 #### Pending optimizations
 
 - Vue.js
-- XML
 - Go
 - C#
+- Prisma

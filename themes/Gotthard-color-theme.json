@@ -775,7 +775,11 @@
     // Custom: HTML
     {
       "name": "HTML - Tags",
-      "scope": ["entity.name.tag.html"],
+      "scope": [
+        "entity.name.tag.html",
+        "entity.name.tag.xml",
+        "entity.name.tag.localname.xml"
+      ],
       "settings": {
         "foreground": "#836781"
       }
@@ -783,6 +787,7 @@
     {
       "name": "HTML - Tag begin and end",
       "scope": [
+        "punctuation.definition.tag.xml",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html"
       ],
