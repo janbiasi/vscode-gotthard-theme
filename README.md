@@ -1,13 +1,32 @@
-# README
-## This is the README for your extension "gotthard-theme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Gotthard Theme
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+### Available theme variants
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- **Dark**: default dark theme, best to get started with
+- **Dark (High Contrast)**: same basis as the dark theme but with a higher contrast
+- **Light**: default light theme, try it if you want some variation during the day
 
-**Enjoy!**
+### Optimized languages (A - Z)
+
+- CSS
+- Gradle (_requires extension [Gradle Language Support](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)_)
+- HTML
+- Java
+- JavaScript
+- JSON
+- JSX
+- LESS
+- PowerShell (_requires extension [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)_)
+- Python (_requires extension [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)_)
+- SASS
+- SCSS
+- Shell
+- SQL
+- TypeScript
+
+#### Pending optimizations
+
+- Vue.js
+- XML
+- Go
+- C#

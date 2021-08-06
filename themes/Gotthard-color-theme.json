@@ -9,6 +9,7 @@
 
     // links
     "textLink.foreground": "#836781",
+    "textLink.activeForeground": "#b19db4",
 
     // checkboxes
     "checkbox.background": "#836781",
@@ -43,8 +44,8 @@
     // buttons
     "button.background": "#836781",
     "button.hoverBackground": "#b19db4",
-    "button.secondaryBackground": "#292929",
-    "button.secondaryHoverBackground": "#707070",
+    "button.secondaryBackground": "#707070",
+    "button.secondaryHoverBackground": "#292929",
 
     // quick picker
     "quickInput.background": "#191919",
@@ -204,8 +205,9 @@
     "problemsWarningIcon.foreground": "#CAAB6D",
 
     // notifications
-    "notificationCenterHeader.background": "#836781",
-    "notifications.background": "#000000",
+    "notificationCenterHeader.background": "#292929",
+    "notifications.background": "#191919",
+    "notifications.foreground": "#FAFAFA",
     "notifications.border": "#836781",
     "notificationCenter.border": "#836781",
     "notificationLink.foreground": "#b19db4",
@@ -341,7 +343,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#b684b8"
+        "foreground": "#b19db4"
       }
     },
     {
@@ -1039,6 +1041,69 @@
       }
     },
 
+    // Custom: Python
+    {
+      "name": "Python - Def's",
+      "scope": ["source.python storage.type.function"],
+      "settings": {
+        "foreground": "#836781"
+      }
+    },
+    {
+      "name": "Python - Decorator",
+      "scope": [
+        "source.python punctuation.definition.decorator",
+        "source.python entity.name.function.decorator"
+      ],
+      "settings": {
+        "foreground": "#81b19b"
+      }
+    },
+    {
+      "name": "Python - Functions",
+      "scope": ["source.python meta.function-call"],
+      "settings": {
+        "foreground": "#b89784"
+      }
+    },
+    {
+      "name": "Python - Function Arguments",
+      "scope": ["source.python meta.function-call.arguments"],
+      "settings": {
+        "foreground": "#FAFAFA"
+      }
+    },
+    {
+      "name": "Python - Built-in Constants",
+      "scope": ["source.python constant.language"],
+      "settings": {
+        "foreground": "#81b19b"
+      }
+    },
+
+    // Custom: SQL
+    {
+      "name": "SQL - Keywords",
+      "scope": ["source.sql keyword.other"],
+      "settings": {
+        "foreground": "#836781"
+      }
+    },
+    {
+      "name": "SQL - Null",
+      "scope": ["source.sql keyword.other.DDL.create.II"],
+      "settings": {
+        "foreground": "#ab6369"
+      }
+    },
+    {
+      "name": "SQL - Date/Time",
+      "scope": ["source.sql support.function.datetime"],
+      "settings": {
+        "foreground": "#81b19b"
+      }
+    },
+
     // Custom: Doc Comments (JavaDoc, TypeDoc)
     {
       "name": "Comment Annotations",
@@ -1068,6 +1133,138 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#899494"
+      }
+    },
+
+    // Custom: Shell Scripts
+    {
+      "name": "Shell - Expressions",
+      "scope": [
+        "meta.scope.logical-expression.shell",
+        "meta.scope.logical-expression.shell punctuation"
+      ],
+      "settings": {
+        "foreground": "#81B19B"
+      }
+    },
+    {
+      "name": "Shell - Positional Variables",
+      "scope": [
+        "variable.other.positional.shell",
+        "variable.other.positional.shell punctuation"
+      ],
+      "settings": {
+        "foreground": "#ab6369"
+      }
+    },
+    {
+      "name": "Shell - Meta Function",
+      "scope": [
+        "meta.function.shell entity.name.function",
+        "support.function.builtin.shell"
+      ],
+      "settings": {
+        "foreground": "#b89784",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Shell - Redirect Operator",
+      "scope": ["keyword.operator.redirect.shell"],
+      "settings": {
+        "foreground": "#6f98b3"
+      }
+    },
+
+    // Custom: PowerShell
+    {
+      "name": "PowerShell - Default",
+      "scope": [
+        "source.powershell variable",
+        "source.powershell keyword",
+        "source.powershell variable punctuation.definition.variable"
+      ],
+      "settings": {
+        "foreground": "#FAFAFA"
+      }
+    },
+    {
+      "name": "PowerShell - Members and Groups",
+      "scope": [
+        "source.powershell variable.other.member",
+        "source.powershell punctuation.section.group.begin",
+        "source.powershell punctuation.section.group.end"
+      ],
+      "settings": {
+        "foreground": "#b89784"
+      }
+    },
+    {
+      "name": "PowerShell - Constants",
+      "scope": ["source.powershell constant.language"],
+      "settings": {
+        "foreground": "#ab6369"
+      }
+    },
+    {
+      "name": "PowerShell - Hashtable & Sub-Expressions",
+      "scope": [
+        "source.powershell meta.hashtable",
+        "source.powershell meta.hashtable.assignment variable",
+        "source.powershell meta.group.simple.subexpression"
+      ],
+      "settings": {
+        "foreground": "#81B19B"
+      }
+    },
+    {
+      "name": "PowerShell - Storage Types & Group",
+      "scope": ["source.powershell storage.type"],
+      "settings": {
+        "foreground": "#836781"
+      }
+    },
+    {
+      "name": "PowerShell - Sections",
+      "scope": [
+        "source.powershell punctuation.section.braces.begin",
+        "source.powershell punctuation.section.braces.end"
+      ],
+      "settings": {
+        "foreground": "#6F98B3"
+      }
+    },
+    {
+      "name": "PowerShell - Script Blocks",
+      "scope": [
+        "source.powershell meta.scriptblock punctuation.section.braces.begin",
+        "source.powershell meta.scriptblock punctuation.section.braces.end"
+      ],
+      "settings": {
+        "foreground": "#FAFAFA"
+      }
+    },
+
+    // Custom: Gradle
+    {
+      "name": "Gradle - Appliers",
+      "scope": ["source.gradle support.type.project"],
+      "settings": {
+        "foreground": "#b19db4"
+      }
+    },
+    {
+      "name": "Gradle - Keys",
+      "scope": ["source.gradle constant.other.key"],
+      "settings": {
+        "foreground": "#81b19b"
+      }
+    },
+    {
+      "name": "Gradle - Methods",
+      "scope": ["source.gradle meta.method"],
+      "settings": {
+        "foreground": "#b89784"
       }
     }
   ]

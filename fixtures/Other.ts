@@ -1,7 +1,9 @@
+const x: string = 10 as any;
+
 export class MyService {
   protected someThingElse: string[] = [];
 
-  private url: string;
+  private url: string = "";
 
   public doCallService(endpoint: string): Record<number, string> {
     return {
