@@ -18,5 +18,7 @@ _configure() {
       value="'$2'"
   esac
 
+  echo false
+
   echo $key="$value" >>$CONFIG
 }
