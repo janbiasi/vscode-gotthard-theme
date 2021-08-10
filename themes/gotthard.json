@@ -171,6 +171,8 @@
     "statusBar.border": "#191919",
     "statusBar.debuggingBackground": "#836781",
     "statusBar.debuggingForeground": "#f5f5f5",
+    "statusBar.noFolderBackground": "#191919",
+    "statusBarItem.errorBackground": "#ab6369",
 
     // activity bar (where scm, search, etc. lives in)
     "activityBar.background": "#000000",
