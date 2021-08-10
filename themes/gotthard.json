@@ -132,6 +132,10 @@
     "minimap.findMatchHighlight": "#707070",
     "minimap.selectionHighlight": "#b19db4",
 
+    // breadcrumb
+    "breadcrumb.activeSelectionForeground": "#836781",
+    "breadcrumb.focusForeground": "#836781",
+
     // debugger breakpoints
     "debugIcon.breakpointForeground": "#AB6369",
     "debugIcon.breakpointDisabledForeground": "#1D201F",
