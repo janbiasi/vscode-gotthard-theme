@@ -5,7 +5,7 @@ module.exports = {
         '@semantic-release/release-notes-generator',
         '@semantic-release/changelog',
         "@semantic-release/npm",
-        ["@semantic-release/github", {
+        ["@semantic-release/git", {
             "assets": [
                 { path: "./bin/gotthard.vsix", label: "Gotthard Bundle" },
                 { path: "package.json", label: "Package Definition" }, 
