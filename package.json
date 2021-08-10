@@ -3,7 +3,7 @@
   "displayName": "gotthard-theme",
   "description": "Gotthard Theme Description",
   "version": "0.0.0-development",
-  "icon": "./assets/icon.png",
+  "icon": "assets/icon.png",
   "publisher": "JanBiasi",
   "author": {
     "name": "Jan Biasi",
