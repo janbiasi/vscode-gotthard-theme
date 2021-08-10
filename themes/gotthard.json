@@ -853,7 +853,8 @@
       "name": "TypeScript - Null and Undefined",
       "scope": ["constant.language.undefined.tsx", "constant.language.null.tsx"],
       "settings": {
-        "foreground": "#ab6369"
+        "foreground": "#ab6369",
+        "fontStyle": ""
       }
     },
     {
@@ -1048,6 +1049,13 @@
       "scope": ["source.java"],
       "settings": {
         "foreground": "#D2D2D2"
+      }
+    },
+    {
+      "name": "Java - Language Constants",
+      "scope": ["constant.language"],
+      "settings": {
+        "foreground": "#b89784"
       }
     },
     {
