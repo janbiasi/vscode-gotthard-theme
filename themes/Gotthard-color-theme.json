@@ -316,11 +316,7 @@
     },
     {
       "name": "Tag",
-      "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
-      ],
+      "scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
       "settings": {
         "foreground": "#CAAB6D"
       }
@@ -422,11 +418,7 @@
     },
     {
       "name": "Sub-methods",
-      "scope": [
-        "entity.name.module.js",
-        "variable.import.parameter.js",
-        "variable.other.class.js"
-      ],
+      "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
       "settings": {
         "foreground": "#b89784"
       }
@@ -449,10 +441,7 @@
     },
     {
       "name": "meta.method.js",
-      "scope": [
-        "meta.class-method.js entity.name.function.js",
-        "variable.function.constructor"
-      ],
+      "scope": ["meta.class-method.js entity.name.function.js", "variable.function.constructor"],
       "settings": {
         "foreground": "#6f98b3"
       }
@@ -531,9 +520,7 @@
     },
     {
       "name": "ES7 Bind Operator",
-      "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js"
-      ],
+      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FF5370"
@@ -591,10 +578,7 @@
     // Markdown
     {
       "name": "Markdown - Plain",
-      "scope": [
-        "text.html.markdown",
-        "punctuation.definition.list_item.markdown"
-      ],
+      "scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
       "settings": {
         "foreground": "#F5F5F5"
       }
@@ -767,11 +751,7 @@
     // Custom: HTML
     {
       "name": "HTML - Tags",
-      "scope": [
-        "entity.name.tag.html",
-        "entity.name.tag.xml",
-        "entity.name.tag.localname.xml"
-      ],
+      "scope": ["entity.name.tag.html", "entity.name.tag.xml", "entity.name.tag.localname.xml"],
       "settings": {
         "foreground": "#836781"
       }
@@ -816,10 +796,7 @@
     },
     {
       "name": "TypeScript - Null and Undefined",
-      "scope": [
-        "constant.language.undefined.tsx",
-        "constant.language.null.tsx"
-      ],
+      "scope": ["constant.language.undefined.tsx", "constant.language.null.tsx"],
       "settings": {
         "foreground": "#ab6369"
       }
@@ -875,10 +852,7 @@
     },
     {
       "name": "React - JSX Tags",
-      "scope": [
-        "punctuation.definition.tag.begin.tsx",
-        "punctuation.definition.tag.end.tsx"
-      ],
+      "scope": ["punctuation.definition.tag.begin.tsx", "punctuation.definition.tag.end.tsx"],
       "settings": {
         "foreground": "#707070"
       }
@@ -953,10 +927,7 @@
     },
     {
       "name": "CSS - Strings",
-      "scope": [
-        "source.css.scss string",
-        "source.css.scss string.quoted.double.scss"
-      ],
+      "scope": ["source.css.scss string", "source.css.scss string.quoted.double.scss"],
       "settings": {
         "foreground": "#CAAB6D"
       }
@@ -1034,10 +1005,7 @@
     },
     {
       "name": "Java - Object and Properties",
-      "scope": [
-        "variable.other.object.java",
-        "variable.other.object.property.java"
-      ],
+      "scope": ["variable.other.object.java", "variable.other.object.property.java"],
       "settings": {
         "foreground": "#6F98B3"
       }
@@ -1065,10 +1033,7 @@
     },
     {
       "name": "Java - Interface extension",
-      "scope": [
-        "storage.modifier.extends.java",
-        "storage.modifier.implements.java"
-      ],
+      "scope": ["storage.modifier.extends.java", "storage.modifier.implements.java"],
       "settings": {
         "foreground": "#836781"
       }
@@ -1152,10 +1117,7 @@
     // Custom: Doc Comments (JavaDoc, TypeDoc)
     {
       "name": "Comment Annotations",
-      "scope": [
-        "comment punctuation",
-        "keyword.other.documentation.javadoc.java"
-      ],
+      "scope": ["comment punctuation", "keyword.other.documentation.javadoc.java"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#B19DB4"
@@ -1163,10 +1125,7 @@
     },
     {
       "name": "Comment Variables",
-      "scope": [
-        "comment variable",
-        "comment.block.javadoc.java variable.parameter"
-      ],
+      "scope": ["comment variable", "comment.block.javadoc.java variable.parameter"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#81B19B"
@@ -1194,20 +1153,14 @@
     },
     {
       "name": "Shell - Positional Variables",
-      "scope": [
-        "variable.other.positional.shell",
-        "variable.other.positional.shell punctuation"
-      ],
+      "scope": ["variable.other.positional.shell", "variable.other.positional.shell punctuation"],
       "settings": {
         "foreground": "#ab6369"
       }
     },
     {
       "name": "Shell - Meta Function",
-      "scope": [
-        "meta.function.shell entity.name.function",
-        "support.function.builtin.shell"
-      ],
+      "scope": ["meta.function.shell entity.name.function", "support.function.builtin.shell"],
       "settings": {
         "foreground": "#b89784",
         "fontStyle": "bold"

@@ -1,9 +1,9 @@
-name: Publish Released
+name: Integration
 
 on:
-  release:
-    types:
-      - published
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -17,11 +17,9 @@ jobs:
         with:
           node-version: 16.x
           cache: 'npm'
-
-      - name: Install 
+      
+      - name: Install
         run: npm install
-
-      - name: Publish to Marketplace
-        run: npm run vsce-publish -- -p $VSCE_AZURE_PAT
-        env:
-          VSCE_AZURE_PAT: ${{ secrets.VSCE_AZURE_PAT }}
+      
+      - name: Semantic Release
+        run: npm run release

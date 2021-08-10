@@ -1,26 +1,45 @@
 {
-    "name": "gotthard-theme",
-    "displayName": "gotthard-theme",
-    "description": "Gotthard Theme Description",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.58.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Gotthard",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Gotthard-color-theme.json"
-            }
-        ]
-    },
-    "devDependencies": {
-        "eta": "^1.12.3",
-        "ts-node": "^10.1.0",
-        "typescript": "^4.3.5"
-    }
+  "name": "gotthard-theme",
+  "displayName": "gotthard-theme",
+  "description": "Gotthard Theme Description",
+  "version": "0.0.0-development",
+  "publisher": "JanBiasi",
+  "author": {
+    "name": "Jan Biasi",
+    "url": "https://janbiasi.ch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janbiasi/vscode-gotthard-theme.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package -o ./bin/gotthard.vsix",
+    "publish": "vsce publish",
+    "prettier": "prettier -w \"./**/*.{json,js,md,yml}\"",
+    "release": "semantic-release"
+  },
+  "engines": {
+    "vscode": "1.58.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gotthard",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gotthard-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
+    "husky": "7.0.1",
+    "prettier": "2.3.2",
+    "semantic-release": "17.4.4",
+    "ts-node": "10.1.0",
+    "typescript": "4.3.5",
+    "vsce": "1.96.1"
+  }
 }
