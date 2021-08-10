@@ -6,6 +6,13 @@
   "version": "1.3.0",
   "icon": "assets/icon.png",
   "publisher": "JanBiasi",
+  "badges": [
+    {
+      "url": "https://img.shields.io/vscode-marketplace/v/janbiasi.gotthard-theme.svg",
+      "href": "https://github.com/janbiasi/vscode-gotthard-theme/releases",
+      "description": "Version"
+    }
+  ],
   "author": {
     "name": "Jan Biasi",
     "url": "https://janbiasi.ch"

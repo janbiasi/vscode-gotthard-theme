@@ -1,4 +1,4 @@
-
+![Version Badge](https://img.shields.io/vscode-marketplace/v/janbiasi.gotthard-theme.svg)
 
 # Gotthard Theme
 
