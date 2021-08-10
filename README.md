@@ -2,20 +2,19 @@
 
 # Gotthard Theme
 
-<div style="max-width: 100px; margin: 20px 0;">
-<img src="https://github.com/janbiasi/vscode-gotthard-theme/raw/main/assets/icon.png" alt="Gotthard Theme Icon" />
-</div>
-
 > The Gotthard (Italian: Gottardo, German: Gotthard) at 2,106 m (6,909 ft) is a mountain pass in the Alps traversing the Saint-Gotthard Massif and connecting northern and southern Switzerland.
 
-Topics
+#### Links
+
+* [Install this Theme](vscode:extension/JanBiasi.gotthard-theme)
+* [Marketplace Page](https://marketplace.visualstudio.com/items?itemName=janbiasi.gotthard-theme)
 
 
 ### Available theme variants
 
 - **Dark**: default dark theme, best to get started with
-- **Dark (High Contrast)**: same basis as the dark theme but with a higher contrast
-- **Light**: default light theme, try it if you want some variation during the day
+- **Coming soon - Dark (High Contrast)**: same basis as the dark theme but with a higher contrast
+- **Coming soon - Light**: default light theme, try it if you want some variation during the day
 
 ### Optimized languages (A - Z)
 
