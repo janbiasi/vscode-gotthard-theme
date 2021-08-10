@@ -28,7 +28,7 @@
       {
         "label": "Gotthard",
         "uiTheme": "vs-dark",
-        "path": "./themes/Gotthard-color-theme.json"
+        "path": "./themes/gotthard.json"
       }
     ]
   },
