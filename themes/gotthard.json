@@ -235,7 +235,6 @@
     "terminal.ansiBrightRed": "#AB6369",
 
     // welcome page
-    "welcomePage.buttonBackground": "#ff0000",
     "welcomePage.progress.background": "#292929",
     "welcomePage.tileBackground": "#191919",
     "welcomePage.progress.foreground": "#81b19b"
@@ -256,6 +255,13 @@
       }
     },
     {
+      "name": "Comments",
+      "scope": ["comment", "comment punctuation", "comment.line.number-sign"],
+      "settings": {
+        "foreground": "#707070c0"
+      }
+    },
+    {
       "name": "Colors",
       "scope": ["constant.other.color"],
       "settings": {
@@ -266,7 +272,7 @@
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#ab6369"
       }
     },
     {
@@ -557,7 +563,7 @@
       "name": "YAML - Tag",
       "scope": ["source.yaml entity.name.tag"],
       "settings": {
-        "foreground": "#836781"
+        "foreground": "#b19db4"
       }
     },
     {
@@ -572,6 +578,13 @@
       "scope": ["source.yaml keyword.control.flow"],
       "settings": {
         "foreground": "#81b19b"
+      }
+    },
+    {
+      "name": "YAML - Comments",
+      "scope": ["source.yaml comment"],
+      "settings": {
+        "foreground": "#ff0000"
       }
     },
 
@@ -1117,7 +1130,7 @@
     // Custom: Doc Comments (JavaDoc, TypeDoc)
     {
       "name": "Comment Annotations",
-      "scope": ["comment punctuation", "keyword.other.documentation.javadoc.java"],
+      "scope": ["keyword.other.documentation.javadoc.java", "comment storage.type.class.jsdoc punctuation"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#B19DB4"

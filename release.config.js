@@ -7,7 +7,7 @@ module.exports = {
         "@semantic-release/npm",
         ["@semantic-release/git", {
             "assets": ["./bin/gotthard.vsix", "docs", "package.json", "CHANGELOG.md"],
-            "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            "message": "chore(release): version ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         }]
     ],
     preset: 'angular',
