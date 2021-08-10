@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.3.0...v1.3.1) (2021-08-10)
+
+
+### Bug Fixes
+
+* cleanup readme and binaries ([9d89446](https://github.com/janbiasi/vscode-gotthard-theme/commit/9d894468d9fb34533811b990fde36ec9d77de28f))
+
 # [1.3.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.2.1...v1.3.0) (2021-08-10)
 
 
