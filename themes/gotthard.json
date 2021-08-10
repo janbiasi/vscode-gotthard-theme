@@ -114,8 +114,8 @@
 
     // minimap view
     "minimap.background": "#000000",
-    "minimapSlider.background": "#191919",
-    "minimapSlider.hoverBackground": "#191919",
+    "minimapSlider.background": "#83678150",
+    "minimapSlider.hoverBackground": "#83678160",
     "minimap.errorHighlight": "#AB6369",
     "minimapGutter.deletedBackground": "#AB6369",
     "minimap.warningHighlight": "#CAAB6D",
