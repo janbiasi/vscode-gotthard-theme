@@ -286,7 +286,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#F5F5F5"
+        "foreground": "#f5f5f5"
       }
     },
     {
@@ -314,7 +314,7 @@
       "name": "Keyword",
       "scope": ["keyword"],
       "settings": {
-        "foreground": "#967994"
+        "foreground": "#836781"
       }
     },
     {
@@ -380,6 +380,13 @@
       "scope": ["meta.block variable.other"],
       "settings": {
         "foreground": "#6F98B3"
+      }
+    },
+    {
+      "name": "Block Level Properties",
+      "scope": ["meta.block variable.other.property"],
+      "settings": {
+        "foreground": "#f5f5f5"
       }
     },
     {
@@ -828,7 +835,7 @@
       "name": "TypeScript - Named Import",
       "scope": ["meta.block.tsx variable.other.readwrite.alias.tsx"],
       "settings": {
-        "foreground": "#B89784"
+        "foreground": "#6f98b3"
       }
     },
     {
@@ -861,8 +868,7 @@
       "name": "TypeScript - Enum property",
       "scope": ["variable.other.constant.property.tsx"],
       "settings": {
-        "foreground": "#6F98B3",
-        "fontStyle": "bold"
+        "foreground": "#6F98B3"
       }
     },
     {
