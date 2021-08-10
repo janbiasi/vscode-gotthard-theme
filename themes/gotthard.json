@@ -7,6 +7,10 @@
     "focusBorder": "#836781",
     "icon.foreground": "#F5F5F5",
 
+    // windows
+    "window.activeBorder": "#000000",
+    "window.inactiveBorder": "#292929",
+
     // links
     "textLink.foreground": "#836781",
     "textLink.activeForeground": "#b19db4",
@@ -99,7 +103,10 @@
     // editor states
     // TODO: High contrast "editorUnnecessaryCode.border": "#CAAB6D",
     "editorUnnecessaryCode.opacity": "#19191975",
-    "editorOverviewRuler.errorForeground": "#1eff00",
+    "editorOverviewRuler.errorForeground": "#ab6369",
+    "editorOverviewRuler.deletedForeground": "#ab6369",
+    "editorOverviewRuler.infoForeground": "#6f98b3",
+    "editorOverviewRuler.warningForeground": "#caab6d",
     // "editorError.border": "#AB6369",
 
     // editor overview
