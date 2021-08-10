@@ -144,7 +144,8 @@
     "sideBar.background": "#000000",
     "sideBar.border": "#191919",
     "sideBarTitle.foreground": "#F5F5F5",
-    "sideBarSectionHeader.background": "#191919",
+    "sideBarSectionHeader.border": "#292929",
+    "sideBarSectionHeader.background": "#000000",
 
     // extension stuff
     "extensionIcon.starForeground": "#CAAB6D",
