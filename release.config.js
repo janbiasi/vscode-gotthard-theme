@@ -8,8 +8,7 @@ module.exports = {
             {
                 assets: ['./bin/gotthard.vsix'],
             },
-        ],
-        '@semantic-release/git',
+        ]
     ],
     preset: 'angular',
 }

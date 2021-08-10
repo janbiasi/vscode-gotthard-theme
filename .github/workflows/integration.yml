@@ -6,11 +6,13 @@ on:
       - main
 
 jobs:
-  deploy:
+  integration:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v1
@@ -23,3 +25,5 @@ jobs:
       
       - name: Semantic Release
         run: npm run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
