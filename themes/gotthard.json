@@ -216,6 +216,25 @@
     "problemsInfoIcon.foreground": "#6F98B3",
     "problemsWarningIcon.foreground": "#CAAB6D",
 
+    // debugger
+    "debugToolBar.background": "#191919",
+    "debugIcon.continueForeground": "#81B19B",
+    "debugIcon.stepIntoForeground": "#81B19B",
+    "debugIcon.stepBackForeground": "#AB6369",
+    "debugIcon.stepOutForeground": "#AB6369",
+    "debugIcon.stepOverForeground": "#CAAB6D",
+    "debugIcon.pauseForeground": "#6F98B3",
+    "debugIcon.disconnectForeground": "#AB6369",
+    "debugIcon.restartForeground": "#6F98B3",
+    "debugIcon.stopForeground": "#AB6369",
+    "debugIcon.startForeground": "#81B19B",
+
+    // debug console
+    "debugConsole.errorForeground": "#AB6369",
+    "debugConsole.infoForeground": "#6F98B3",
+    "debugConsole.warningForeground": "#CAAB6D",
+    "debugConsole.sourceForeground": "#f5f5f5",
+
     // notifications
     "notificationCenterHeader.background": "#292929",
     "notifications.background": "#191919",
