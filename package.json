@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "gotthard-theme",
-  "displayName": "gotthard-theme",
-  "description": "Gotthard Theme Description",
+  "displayName": "Gotthard Theme",
+  "description": "A nature inspired matte theme. The Gotthard (Italian: Gottardo, German: Gotthard) at 2,106 m (6,909 ft) is a mountain pass in the Alps traversing the Saint-Gotthard Massif and connecting northern and southern Switzerland.",
   "version": "1.2.0",
   "icon": "assets/icon.png",
   "publisher": "JanBiasi",
@@ -22,7 +22,7 @@
     "release": "semantic-release"
   },
   "engines": {
-    "vscode": "1.58.0"
+    "vscode": "^1.58.0"
   },
   "categories": [
     "Themes"

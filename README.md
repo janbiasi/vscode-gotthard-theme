@@ -1,6 +1,10 @@
+
+
 # Gotthard Theme
 
-![Gotthard Theme Icon](assets/icon.png)
+<div style="max-width: 100px; margin: 20px 0;">
+<img src="https://github.com/janbiasi/vscode-gotthard-theme/raw/main/assets/icon.png" alt="Gotthard Theme Icon" />
+</div>
 
 > The Gotthard (Italian: Gottardo, German: Gotthard) at 2,106 m (6,909 ft) is a mountain pass in the Alps traversing the Saint-Gotthard Massif and connecting northern and southern Switzerland.
 
