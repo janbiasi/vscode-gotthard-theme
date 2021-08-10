@@ -1134,7 +1134,6 @@
       "name": "Comment Annotations",
       "scope": ["keyword.other.documentation.javadoc.java", "comment storage.type.class.jsdoc punctuation"],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#B19DB4"
       }
     },
@@ -1142,7 +1141,6 @@
       "name": "Comment Variables",
       "scope": ["comment variable", "comment.block.javadoc.java variable.parameter"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#81B19B"
       }
     },

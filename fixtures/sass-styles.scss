@@ -3,6 +3,10 @@
 // this is a comment
 $color: #123456;
 
+@mixin someWeirdThing($color: "#fafafa") {
+  background-color: $color;
+}
+
 /* this is also a comment */
 #app {
   color: rgba(255, 255, 255, 0.25);
@@ -10,7 +14,8 @@ $color: #123456;
 
 .a-button {
   .a-button__text {
-    color: $color;
+    color: #fafafa;
+    @include someWeirdThing($color);
   }
 
   &::after {
