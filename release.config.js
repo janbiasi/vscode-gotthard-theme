@@ -11,7 +11,15 @@ module.exports = {
                 { path: "package.json", label: "Package Definition" }, 
                 { path: "CHANGELOG.md", label: "Changelog" }
             ]
-        }]
+        }],
+        ["@semantic-release/github", {
+            "assets": [
+                { path: "./bin/gotthard.vsix", label: "Gotthard Bundle" },
+                { path: "package.json", label: "Package Definition" }, 
+                { path: "CHANGELOG.md", label: "Changelog" }
+            ],
+            "addReleases": "bottom"
+        }],
     ],
     preset: 'angular',
 }
