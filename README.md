@@ -7,6 +7,7 @@
 #### Links
 
 * [Marketplace Page](https://marketplace.visualstudio.com/items?itemName=janbiasi.gotthard-theme)
+* [VSIX Bundle (latest)](https://github.com/janbiasi/vscode-gotthard-theme/tree/main/bin)
 
 
 ### Available theme variants
