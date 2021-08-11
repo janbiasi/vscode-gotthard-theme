@@ -6,7 +6,6 @@
 
 #### Links
 
-* [Install this Theme](vscode:extension/JanBiasi.gotthard-theme)
 * [Marketplace Page](https://marketplace.visualstudio.com/items?itemName=janbiasi.gotthard-theme)
 
 
