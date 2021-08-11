@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.3.2...v1.3.3) (2021-08-11)
+
+
+### Bug Fixes
+
+* remove version badge from extension page ([63f6262](https://github.com/janbiasi/vscode-gotthard-theme/commit/63f62627bb43e97c06a3b3a5c9c1eff249db68bc))
+
 ## [1.3.2](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.3.1...v1.3.2) (2021-08-10)
 
 
