@@ -1,5 +1,17 @@
+::root {
+    --my-color-var: #f00;
+}
+
+#myId {
+    color: var(--my-color-var);
+}
+
 body {
-  color: #fafafa;
-  transition: all 2s ease-in-out;
-  font-weight: bold;
+    color: #fafafa;
+    transition: all 2s ease-in-out;
+    font-weight: bold;
+}
+
+.test {
+    color: gray;
 }

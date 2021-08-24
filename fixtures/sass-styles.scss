@@ -3,35 +3,37 @@
 // this is a comment
 $color: #123456;
 
-@mixin someWeirdThing($color: "#fafafa") {
-  background-color: $color;
+@mixin someWeirdThing($color: '#fafafa') {
+    background-color: $color;
 }
 
 /* this is also a comment */
 #app {
-  color: rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.25);
 }
 
 .a-button {
-  .a-button__text {
-    color: #fafafa;
-    @include someWeirdThing($color);
-  }
+    .a-button__text {
+        color: #fafafa;
+        display: block;
+        text-align: center;
+        @include someWeirdThing($color);
+    }
 
-  &::after {
-    content: "";
-    left: calc(100% - #{math.min(0, 20) * 1px});
-    margin: 0 auto;
-    display: block;
-  }
+    &::after {
+        content: '';
+        left: calc(100% - #{math.min(0, 20) * 1px});
+        margin: 0 auto;
+        display: block;
+    }
 
-  @if $color {
-    color: $color;
-  } @else {
-    color: red;
-  }
+    @if $color {
+        color: $color;
+    } @else {
+        color: red;
+    }
 
-  @media all and (min-width: 1920px) {
-    display: block;
-  }
+    @media all and (min-width: 1920px) {
+        display: block;
+    }
 }

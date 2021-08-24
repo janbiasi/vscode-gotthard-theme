@@ -33,3 +33,7 @@ pipelines:
           name: Clone
           script:
             - echo "Clone all the things!"
+            - >
+              docker run -v $(pwd):/hawk:rw -t
+              -e API_KEY=$HAWK_API_KEY
+              stackhawk/hawkscan
