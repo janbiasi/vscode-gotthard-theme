@@ -6,9 +6,8 @@
 
 #### Links
 
-* [Marketplace Page](https://marketplace.visualstudio.com/items?itemName=janbiasi.gotthard-theme)
-* [VSIX Bundle (latest)](https://github.com/janbiasi/vscode-gotthard-theme/tree/main/bin)
-
+- [Marketplace Page](https://marketplace.visualstudio.com/items?itemName=janbiasi.gotthard-theme)
+- [VSIX Bundle (latest)](https://github.com/janbiasi/vscode-gotthard-theme/tree/main/bin)
 
 ### Available theme variants
 
@@ -36,9 +35,20 @@
 - XML
 - YAML
 
-#### Pending optimizations
+#### Pending optimizations 2.0
 
-- Vue.js
-- Go
+- Angular (2+)
 - C#
+- Kotlin
 - Prisma
+
+#### Pending optimizations 3.0
+
+- Go
+- Vue.js
+
+#### Pending optimizations 4.0
+
+- Dart
+- Rust
+- Scala
