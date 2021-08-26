@@ -7,7 +7,7 @@
 
 ##### Color Blind Friendly
 
-The theme colors have been choosen to be color-blind friendly through all different theme modes.
+The [theme colors](https://github.com/janbiasi/vscode-gotthard-theme/blob/main/docs/COLORS.md) have been choosen to be **color-blind friendly** through all different theme variants.
 
 - Tritanomaly (blue-green)
 - Tritanopia (blue-green)
