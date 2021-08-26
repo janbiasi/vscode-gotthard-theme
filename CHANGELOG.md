@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.4.1...v1.5.0) (2021-08-26)
+
+
+### Features
+
+* add support for Angular 2+ ([62a5981](https://github.com/janbiasi/vscode-gotthard-theme/commit/62a59817988f16b0d3fcf9f51e07d65df5da747b))
+
 ## [1.4.1](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.4.0...v1.4.1) (2021-08-26)
 
 
