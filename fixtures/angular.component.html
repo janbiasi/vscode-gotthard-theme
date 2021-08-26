@@ -2,4 +2,7 @@
     <button (click)="dec()" title="smaller">-</button>
     <button (click)="inc()" title="bigger">+</button>
     <label [style.font-size.px]="size">FontSize: {{ size }}px</label>
+    <ul>
+        <li *ngFor="let item of items; let i = index">{{ i }} {{ item }}</li>
+    </ul>
 </div>

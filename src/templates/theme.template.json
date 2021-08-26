@@ -1064,6 +1064,26 @@
       "settings": {
         "foreground": "<%~ it.primary.red %>"
       }
+    },
+
+    // Specific: Angular
+    {
+      "name": "Angular Template - Binding Braces and Expressions",
+      "scope": [
+        "punctuation.definition.block",
+        "punctuation.definition.ng-binding-name.begin",
+        "punctuation.definition.ng-binding-name.end"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+    {
+      "name": "Angular Template - Variables",
+      "scope": ["expression.ng variable"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
     }
   ]
 }

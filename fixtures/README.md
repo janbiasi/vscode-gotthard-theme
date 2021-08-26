@@ -31,4 +31,12 @@
 - Vue.js
 - Go
 - C#
-- Prisma
+- Prisma `code`
+
+this is a text
+
+> This is a Blockquote
+
+```tsx
+const this = "is a code block!";
+```

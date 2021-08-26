@@ -18,6 +18,7 @@
 
 ### Optimized languages (A - Z)
 
+- Angular (_requires extension [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)_)
 - CSS
 - Gradle (_requires extension [Gradle Language Support](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)_)
 - HTML
@@ -38,7 +39,6 @@
 
 #### Pending optimizations 2.0
 
-- Angular (2+)
 - C#
 - Kotlin
 - Prisma
