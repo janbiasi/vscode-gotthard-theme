@@ -1,3 +1,11 @@
+## [1.5.1](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.5.0...v1.5.1) (2021-08-26)
+
+
+### Bug Fixes
+
+* add prepackage hook for theme generation ([a7fbb31](https://github.com/janbiasi/vscode-gotthard-theme/commit/a7fbb31000a1ac41a4c92b92621c8eaaaa0c5681))
+* generate target dist path in generator ([3116850](https://github.com/janbiasi/vscode-gotthard-theme/commit/3116850b883200f9550a4cfe3084f66018781594))
+
 # [1.5.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.4.1...v1.5.0) (2021-08-26)
 
 
