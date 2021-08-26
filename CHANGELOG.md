@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.4.0...v1.4.1) (2021-08-26)
+
+
+### Bug Fixes
+
+* improve markdown styles ([8a3fb8c](https://github.com/janbiasi/vscode-gotthard-theme/commit/8a3fb8c456376a2be238e02f266b3699fddeaac0))
+
 # [1.4.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.3.3...v1.4.0) (2021-08-26)
 
 
