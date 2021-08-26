@@ -1,3 +1,17 @@
+# [1.6.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.5.1...v1.6.0) (2021-08-26)
+
+
+### Bug Fixes
+
+* optimize import/package definitions and ops for Java ([fdc61c1](https://github.com/janbiasi/vscode-gotthard-theme/commit/fdc61c11cebc7abe59f6309b47c7af2751f53826))
+* optimize tree indent guides for medium and light theme ([f615272](https://github.com/janbiasi/vscode-gotthard-theme/commit/f6152720c8d88870cd0ed8fb41287fde21619a12))
+
+
+### Features
+
+* add bug submission link to extension configuration ([e468bbd](https://github.com/janbiasi/vscode-gotthard-theme/commit/e468bbdfd1bf0f208ac0625c5ba89570ca3e03b5))
+* optimize less, docker and angular syntax colors ([3896a8f](https://github.com/janbiasi/vscode-gotthard-theme/commit/3896a8f7e6a82cc7ba3ecfd62e46dd2f85795fc7))
+
 ## [1.5.1](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.5.0...v1.5.1) (2021-08-26)
 
 
