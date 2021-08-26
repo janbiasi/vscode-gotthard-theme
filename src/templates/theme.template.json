@@ -1016,6 +1016,27 @@
         "foreground": "<%~ it.primary.green %>"
       }
     },
+    {
+      "name": "Java - Arrows",
+      "scope": ["source.java storage.type.function.arrow"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "Java - Import & Package Keyword",
+      "scope": ["source.java keyword.other.import", "source.java keyword.other.package"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "Java - Import (Package Path)",
+      "scope": ["source.java storage.modifier.import", "source.java storage.modifier.package"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
 
     // Scope: SQL specific
     {

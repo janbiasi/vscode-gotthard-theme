@@ -1,6 +1,6 @@
 package com.microsoft.fixture.vscode.theme;
 
-import com.spring.asdf;
+import com.spring.asdf.Test;
 
 interface BaseController {
     String getTest();
