@@ -16,7 +16,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepackage": "npm run generate",
     "package": "vsce package -o ./bin/gotthard.vsix",
     "publish": "vsce publish",
     "prettier": "prettier -w \"./**/*.{json,js,md,yml}\"",
