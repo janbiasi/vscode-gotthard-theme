@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.3.3...v1.4.0) (2021-08-26)
+
+
+### Features
+
+* add light and medium dark themes ([dbcc72b](https://github.com/janbiasi/vscode-gotthard-theme/commit/dbcc72b9410ecb3055ac4851d11dc144de6c68a3))
+
 ## [1.3.3](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.3.2...v1.3.3) (2021-08-11)
 
 ### Bug Fixes
