@@ -2,7 +2,7 @@
 
 ## Dark
 
-<div style="display: flex">
+<p float="left">
     <div style="width: 50%">
         <img 
             src="https://github.com/janbiasi/vscode-gotthard-theme/raw/main/docs/images/gotthard-primary-dark.png"
@@ -21,11 +21,11 @@
             View Palette
         </a>
     </div>
-</div>
+</p>
 
 ## Medium Dark
 
-<div style="display: flex">
+<p float="left">
     <div style="width: 50%">
         <img 
             src="https://github.com/janbiasi/vscode-gotthard-theme/raw/main/docs/images/gotthard-primary-dark.png"
@@ -44,11 +44,11 @@
             View Palette
         </a>
     </div>
-</div>
+</p>
 
 ## Light
 
-<div style="display: flex">
+<p float="left">
     <div style="width: 50%">
         <img 
             src="https://github.com/janbiasi/vscode-gotthard-theme/raw/main/docs/images/gotthard-primary-light.png"
@@ -67,4 +67,4 @@
             View Palette
         </a>
     </div>
-</div>
+</p>
