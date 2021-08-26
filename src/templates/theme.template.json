@@ -363,8 +363,15 @@
       }
     },
     {
+      "name": "Keyword - New",
+      "scope": ["keyword.operator.new"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
       "name": "Punctuation",
-      "scope": ["punctuation", "meta.brace.square"],
+      "scope": ["punctuation", "meta.brace.square", "punctuation.definition.block"],
       "settings": {
         "foreground": "<%~ it.grayscale.foreground %>"
       }
@@ -530,7 +537,9 @@
         "source.css punctuation.definition.interpolation.begin.bracket.curly",
         "source.css punctuation.definition.interpolation.end.bracket.curly",
         "source.html punctuation.definition.interpolation.begin.bracket.curly",
-        "source.html punctuation.definition.interpolation.end.bracket.curly"
+        "source.html punctuation.definition.interpolation.end.bracket.curly",
+        "source.css variable.other.less",
+        "source.css punctuation.definition.variable.less"
       ],
       "settings": {
         "foreground": "<%~ it.primary.green %>"
@@ -538,7 +547,11 @@
     },
     {
       "name": "CSS Variables",
-      "scope": ["source.css variable"],
+      "scope": [
+        "source.css variable",
+        "source.css variable.other.less",
+        "source.css punctuation.definition.variable.less"
+      ],
       "settings": {
         "foreground": "<%~ it.primary.blue %>"
       }
@@ -918,7 +931,9 @@
       "name": "Decorators",
       "scope": [
         "source.ts punctuation.decorator.ts",
-        "source.ts meta.decorator.ts",
+        // "source.ts meta.decorator",
+        "source.ts meta.decorator variable",
+        "source.ts meta.decorator entity.name.function",
         "source.python punctuation.definition.decorator",
         "source.python entity.name.function.decorator",
         "source.java punctuation.definition.annotation.java",
@@ -970,6 +985,22 @@
       "scope": ["meta.array.literal.ts meta.brace.square.ts"],
       "settings": {
         "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "TypeScript - Generators",
+      "scope": ["keyword.generator.asterisk"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+
+    // Scope: Node.js specific
+    {
+      "name": "Node.js - Module Exports",
+      "scope": ["source.js support.type.object.module"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
       }
     },
 
@@ -1070,7 +1101,7 @@
     {
       "name": "Angular Template - Binding Braces and Expressions",
       "scope": [
-        "punctuation.definition.block",
+        "text.html punctuation.definition.block",
         "punctuation.definition.ng-binding-name.begin",
         "punctuation.definition.ng-binding-name.end"
       ],
@@ -1080,7 +1111,14 @@
     },
     {
       "name": "Angular Template - Variables",
-      "scope": ["expression.ng variable"],
+      "scope": ["expression.ng variable", "expression.ng variable.other.readwrite"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "Angular Template - Functions",
+      "scope": ["meta.decorator meta.ng-binding.event expression.ng entity.name.function"],
       "settings": {
         "foreground": "<%~ it.primary.blue %>"
       }

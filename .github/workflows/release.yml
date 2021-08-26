@@ -41,7 +41,7 @@ jobs:
       - name: Push Theme Artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: themes-artifact-${GITHUB_RUN_ID}-${GITHUB_RUN_NUMBER}
+          name: themes-artifact
           path: dist
 
       - name: Package Extension

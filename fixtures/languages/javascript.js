@@ -8,3 +8,5 @@ const myObj = {
     anotherNum: 20,
     andAString: 'hello there',
 };
+
+module.exports = myObj;

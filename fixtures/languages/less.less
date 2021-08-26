@@ -1,0 +1,40 @@
+@use "sass:math";
+
+// this is a comment
+@color: #123456;
+@size: 20px;
+
+.someWeirdThing {
+    background-color: $color;
+}
+
+/* this is also a comment */
+#app {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.a-button {
+    .a-button__text {
+        color: #fafafa;
+        display: block;
+        text-align: center;
+        .someWeirdThing($color);
+    }
+
+    &::after {
+        content: '';
+        left: calc(100% - (@size - 20px));
+        margin: 0 auto;
+        display: block;
+    }
+
+    @if $color {
+        color: $color;
+    } @else {
+        color: red;
+    }
+
+    @media all and (min-width: 1920px) {
+        display: block;
+    }
+}

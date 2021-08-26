@@ -1,4 +1,4 @@
-![Version Badge](https://img.shields.io/vscode-marketplace/v/janbiasi.gotthard-theme.svg)
+![Version Badge](https://img.shields.io/vscode-marketplace/v/janbiasi.gotthard-theme.svg) [![Release](https://github.com/janbiasi/vscode-gotthard-theme/actions/workflows/release.yml/badge.svg)](https://github.com/janbiasi/vscode-gotthard-theme/actions/workflows/release.yml)
 
 # Gotthard Theme
 
@@ -20,6 +20,7 @@
 
 - Angular (_requires extension [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)_)
 - CSS
+- Docker
 - Gradle (_requires extension [Gradle Language Support](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)_)
 - HTML
 - Java
@@ -45,11 +46,13 @@
 
 #### Pending optimizations 3.0
 
+- Bazel
 - Go
 - Vue.js
 
 #### Pending optimizations 4.0
 
 - Dart
+- Flow
 - Rust
 - Scala
