@@ -76,6 +76,10 @@
     "quickInputList.focusBackground": "<%~ it.grayscale.layerBorder %>",
     "quickInputList.focusIconForeground": "<%~ it.primary.magentaDark %>",
 
+    // tree
+    "tree.indentGuidesStroke": "<%~ it.grayscale.layerBorder %>90",
+    "tree.tableColumnsBorder": "<%~ it.grayscale.layerBorder %>90",
+
     // widgets
     "widget.shadow": "<%~ it.grayscale.backgroundLayer1 %>",
     "editorWidget.background": "<%~ it.grayscale.backgroundLayer2 %>",
