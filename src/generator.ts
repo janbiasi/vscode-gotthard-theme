@@ -1,5 +1,5 @@
 import { resolve } from 'path';
-import { readFile, writeFile } from 'fs-extra';
+import { readFile, writeFile, mkdirp } from 'fs-extra';
 import { render } from 'eta';
 import { themes, transformThemeToTemplateVariables } from './themes';
 
@@ -8,6 +8,8 @@ const TARGET_DIR = resolve(__dirname, '../dist/');
 const BASE_TEMPLATE_PATH = resolve(SOURCE_ROOT, 'templates/theme.template.json');
 
 (async () => {
+    await mkdirp(TARGET_DIR);
+
     console.log('Loading base template from %s', BASE_TEMPLATE_PATH);
     const templateContent = await readFile(BASE_TEMPLATE_PATH, 'utf8');
 
