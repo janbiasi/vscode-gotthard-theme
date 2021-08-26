@@ -1,5 +1,6 @@
 var x = 10;
 
+// this is a comment ..
 console.log(x);
 
 const myObj = {

@@ -10,8 +10,15 @@ body {
     color: #fafafa;
     transition: all 2s ease-in-out;
     font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .test {
     color: gray;
+}
+
+@media all and (min-width: 500px) {
+    body {
+        padding: 10px 20px;
+    }
 }

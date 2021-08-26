@@ -1,0 +1,1123 @@
+{
+  "name": "<%~ it.name %>",
+  "$schema": "vscode://schemas/color-theme",
+  "type": "<%~ it.type %>",
+  "colors": {
+    "foreground": "<%~ it.grayscale.foreground %>",
+    "descriptionForeground": "<%~ it.grayscale.foreground %>45",
+    "focusBorder": "<%~ it.primary.magentaDark %>",
+    "icon.foreground": "<%~ it.grayscale.foreground %>",
+
+    // windows
+    "window.activeBorder": "<%~ it.grayscale.backgroundLayer1 %>",
+    "window.inactiveBorder": "<%~ it.grayscale.layerBorder %>",
+
+    // links
+    "textLink.foreground": "<%~ it.primary.magentaDark %>",
+    "textLink.activeForeground": "<%~ it.primary.magentaLight %>",
+
+    // checkboxes
+    "checkbox.background": "<%~ it.primary.magentaDark %>",
+    "settings.checkboxBackground": "<%~ it.grayscale.layerBorder %>",
+    "settings.checkboxForeground": "<%~ it.primary.magentaDark %>",
+
+    // dropdowns
+    "dropdown.background": "<%~ it.grayscale.backgroundLayer1 %>",
+    "dropdown.border": "<%~ it.grayscale.layerBorder %>",
+    "settings.dropdownBorder": "<%~ it.grayscale.layerBorder %>",
+
+    // inputs
+    "input.background": "<%~ it.grayscale.backgroundLayer1 %>",
+    "input.border": "<%~ it.grayscale.layerBorder %>",
+    "input.foreground": "<%~ it.grayscale.foreground %>",
+    "input.placeholderForeground": "<%~ it.grayscale.foreground %>45",
+    "inputValidation.errorBackground": "<%~ it.primary.red %>25",
+    "inputValidation.errorBorder": "<%~ it.primary.red %>",
+    "inputValidation.errorForeground": "<%~ it.primary.red %>",
+    "inputValidation.infoBackground": "<%~ it.primary.blue %>25",
+    "inputValidation.infoBorder": "<%~ it.primary.blue %>",
+    "inputValidation.infoForeground": "<%~ it.primary.blue %>",
+    "inputValidation.warningBackground": "<%~ it.primary.yellow %>25",
+    "inputValidation.warningBorder": "<%~ it.primary.yellow %>",
+    "inputValidation.warningForeground": "<%~ it.primary.yellow %>",
+
+    // progress bars
+    "progressBar.background": "<%~ it.primary.magentaDark %>",
+
+    // scrollbars
+    "scrollbarSlider.background": "<%~ it.grayscale.backgroundLayer2 %>",
+    "scrollbarSlider.activeBackground": "<%~ it.grayscale.layerBorder %>",
+    "scrollbarSlider.hoverBackground": "<%~ it.grayscale.layerBorder %>",
+
+    // generic lists
+    "list.errorForeground": "<%~ it.primary.red %>",
+    "list.invalidItemForeground": "<%~ it.primary.yellow %>",
+    "list.warningForeground": "<%~ it.primary.yellow %>",
+    "list.hoverBackground": "<%~ it.grayscale.backgroundLayer2 %>80",
+    "list.focusBackground": "<%~ it.grayscale.backgroundLayer2 %>",
+    "list.inactiveFocusBackground": "<%~ it.grayscale.backgroundLayer2 %>",
+    "list.inactiveSelectionBackground": "<%~ it.grayscale.backgroundLayer2 %>",
+    "list.activeSelectionBackground": "<%~ it.grayscale.backgroundLayer2 %>",
+    "list.highlightForeground": "<%~ it.primary.magentaDark %>",
+    "list.activeSelectionForeground": "<%~ it.grayscale.foreground %>",
+    "list.focusForeground": "<%~ it.grayscale.foreground %>",
+
+    // buttons
+    "button.background": "<%~ it.primary.magentaDark %>",
+    "button.hoverBackground": "<%~ it.primary.magentaLight %>",
+    "button.secondaryBackground": "<%~ it.grayscale.backgroundLayerFocus %>",
+    "button.secondaryHoverBackground": "<%~ it.grayscale.layerBorder %>",
+
+    // quick picker
+    "pickerGroup.border": "<%~ it.grayscale.layerBorder %>",
+    "quickInput.foreground": "<%~ it.grayscale.foreground %>90",
+    "quickInput.background": "<%~ it.grayscale.backgroundLayer2 %>",
+    "quickInputList.focusForeground": "<%~ it.grayscale.foreground %>",
+    "quickInputList.focusBackground": "<%~ it.grayscale.layerBorder %>",
+    "quickInputList.focusIconForeground": "<%~ it.primary.magentaDark %>",
+
+    // widgets
+    "widget.shadow": "<%~ it.grayscale.backgroundLayer1 %>",
+    "editorWidget.background": "<%~ it.grayscale.backgroundLayer2 %>",
+    "editorWidget.border": "<%~ it.grayscale.layerBorder %>",
+    "editorWidget.foreground": "<%~ it.grayscale.backgroundLayerFocus %>",
+    "editorHoverWidget.background": "<%~ it.grayscale.backgroundLayer2 %>",
+    "editorHoverWidget.border": "<%~ it.grayscale.layerBorder %>",
+
+    // main editor view
+    "editor.background": "<%~ it.grayscale.backgroundLayer1 %>",
+    "editor.foreground": "<%~ it.grayscale.foreground %>",
+    "editor.wordHighlightBackground": "<%~ it.grayscale.layerBorder %>",
+    "editor.selectionBackground": "<%~ it.grayscale.layerBorder %>",
+    "editor.selectionHighlightBackground": "<%~ it.grayscale.layerBorder %>",
+    "editor.selectionHighlightBorder": "<%~ it.grayscale.backgroundLayerFocus %>",
+    "editor.findMatchBackground": "<%~ it.grayscale.layerBorder %>",
+    "editor.findMatchBorder": "<%~ it.grayscale.backgroundLayerFocus %>",
+    "editor.lineHighlightBackground": "<%~ it.grayscale.backgroundLayer2 %>",
+    "editor.lineHighlightBorder": "<%~ it.grayscale.backgroundLayer2 %>",
+    // "editor.inlineValuesForeground": "#ff0000",
+    "editor.foldBackground": "<%~ it.grayscale.backgroundLayer2 %>",
+    "editorLink.activeForeground": "<%~ it.grayscale.foreground %>",
+    "editorIndentGuide.activeBackground": "<%~ it.primary.magentaDark %>80",
+
+    // editor widgets
+    "editorSuggestWidget.selectedBackground": "<%~ it.primary.magentaDark %>10",
+    "editorHoverWidget.foreground": "<%~ it.grayscale.foreground %>80",
+
+    // editor code lens
+    "editorCodeLens.foreground": "<%~ it.grayscale.foreground %>55",
+
+    // editor lines
+    "editorLineNumber.foreground": "<%~ it.grayscale.foreground %>45",
+    "editorLineNumber.activeForeground": "<%~ it.primary.magentaLight %>",
+
+    // editor cursor
+    "editorCursor.foreground": "<%~ it.grayscale.foreground %>",
+    "editorCursor.background": "<%~ it.grayscale.foreground %>",
+
+    // editor peek
+    "peekView.border": "<%~ it.primary.magentaDark %>",
+    "peekViewEditor.background": "<%~ it.grayscale.backgroundLayer2 %>",
+    "peekViewTitle.background": "<%~ it.grayscale.backgroundLayer1 %>",
+    "peekViewResult.background": "<%~ it.grayscale.backgroundLayer2 %>",
+    "peekViewEditorGutter.background": "<%~ it.grayscale.layerBorder %>",
+    "peekViewTitleDescription.foreground": "<%~ it.grayscale.backgroundLayerFocus %>",
+    "peekViewTitleLabel.foreground": "<%~ it.grayscale.foreground %>",
+    "peekViewResult.lineForeground": "<%~ it.primary.magentaDark %>",
+    "peekViewResult.fileForeground": "<%~ it.grayscale.foreground %>",
+    "peekViewResult.selectionBackground": "<%~ it.grayscale.backgroundLayerFocus %>",
+
+    // editor groups
+    "editorGroupHeader.tabsBackground": "<%~ it.grayscale.backgroundLayer1 %>",
+    "editorGroupHeader.tabsBorder": "<%~ it.grayscale.layerBorder %>",
+    "editorGroupHeader.border": "<%~ it.grayscale.layerBorder %>",
+    "editorGroup.border": "<%~ it.grayscale.layerBorder %>",
+
+    // editor hints
+    "editorError.foreground": "<%~ it.primary.red %>",
+    "editorWarning.foreground": "<%~ it.primary.yellow %>",
+    "editorInfo.foreground": "<%~ it.primary.blue %>",
+
+    // editor states
+    // TODO: High contrast "editorUnnecessaryCode.border": "<%~ it.primary.yellow %>",
+    "editorUnnecessaryCode.opacity": "<%~ it.grayscale.backgroundLayer2 %>75",
+    "editorOverviewRuler.errorForeground": "<%~ it.primary.red %>",
+    "editorOverviewRuler.deletedForeground": "<%~ it.primary.red %>",
+    "editorOverviewRuler.infoForeground": "<%~ it.primary.blue %>",
+    "editorOverviewRuler.warningForeground": "<%~ it.primary.yellow %>",
+    // "editorError.border": "<%~ it.primary.red %>",
+
+    // editor overview
+    "editorOverviewRuler.modifiedForeground": "<%~ it.primary.yellow %>",
+    "editorOverviewRuler.incomingContentForeground": "<%~ it.primary.red %>",
+    "editorOverviewRuler.addedForeground": "<%~ it.primary.green %>",
+
+    // editor search & peek view matches
+    "peekViewResult.matchHighlightBackground": "<%~ it.grayscale.layerBorder %>",
+    "peekViewEditor.matchHighlightBackground": "<%~ it.grayscale.layerBorder %>",
+    "peekViewEditor.matchHighlightBorder": "<%~ it.grayscale.backgroundLayerFocus %>",
+    "editor.findMatchHighlightBackground": "<%~ it.grayscale.layerBorder %>",
+    "editor.findMatchHighlightBorder": "<%~ it.grayscale.backgroundLayerFocus %>",
+    "list.filterMatchBackground": "<%~ it.primary.magentaLight %>50",
+    "listFilterWidget.background": "<%~ it.grayscale.backgroundLayer2 %>",
+    "listFilterWidget.outline": "<%~ it.primary.magentaLight %>",
+
+    // minimap view
+    "minimap.background": "<%~ it.grayscale.backgroundLayer1 %>",
+    "minimap.errorHighlight": "<%~ it.primary.red %>",
+    "minimap.warningHighlight": "<%~ it.primary.yellow %>",
+    "minimap.findMatchHighlight": "<%~ it.grayscale.backgroundLayerFocus %>",
+    "minimap.selectionHighlight": "<%~ it.primary.magentaLight %>",
+    "minimapGutter.deletedBackground": "<%~ it.primary.red %>",
+    "minimapSlider.background": "<%~ it.primary.magentaDark %>50",
+    "minimapSlider.hoverBackground": "<%~ it.primary.magentaDark %>55",
+    "minimapSlider.activeBackground": "<%~ it.primary.magentaDark %>65",
+
+    // breadcrumb
+    "breadcrumb.activeSelectionForeground": "<%~ it.primary.magentaDark %>",
+    "breadcrumb.focusForeground": "<%~ it.primary.magentaDark %>",
+    "breadcrumb.foreground": "<%~ it.grayscale.foreground %>80",
+
+    // search editor
+    "searchEditor.textInputBorder": "<%~ it.primary.magentaDark %>",
+
+    // debugger breakpoints
+    "debugIcon.breakpointForeground": "<%~ it.primary.red %>",
+    "debugIcon.breakpointDisabledForeground": "#1D201F",
+
+    // main tabs
+    "tab.border": "<%~ it.grayscale.layerBorder %>",
+    "tab.activeBackground": "<%~ it.grayscale.backgroundLayer2 %>",
+    "tab.activeForeground": "<%~ it.grayscale.foreground %>",
+    "tab.inactiveForeground": "<%~ it.grayscale.foreground %>50",
+    "tab.inactiveBackground": "<%~ it.grayscale.backgroundLayer1 %>",
+    "tab.activeModifiedBorder": "<%~ it.primary.yellow %>",
+    "tab.inactiveModifiedBorder": "<%~ it.primary.yellow %>",
+    "tab.unfocusedActiveModifiedBorder": "<%~ it.primary.yellow %>",
+    "tab.unfocusedInactiveModifiedBorder": "<%~ it.primary.yellow %>",
+
+    // sidebar
+    "sideBar.background": "<%~ it.grayscale.backgroundLayer1 %>",
+    "sideBar.border": "<%~ it.grayscale.layerBorder %>",
+    "sideBarTitle.foreground": "<%~ it.grayscale.foreground %>",
+    "sideBarSectionHeader.border": "<%~ it.grayscale.layerBorder %>",
+    "sideBarSectionHeader.background": "<%~ it.grayscale.backgroundLayer1 %>",
+
+    // extension stuff
+    "extensionIcon.starForeground": "<%~ it.primary.yellow %>",
+
+    // title bar (where the settings in windows are + title)
+    "titleBar.activeBackground": "<%~ it.grayscale.backgroundLayer1 %>",
+    "titleBar.activeForeground": "<%~ it.grayscale.foreground %>",
+    "titleBar.border": "<%~ it.grayscale.layerBorder %>",
+
+    // action panel (eg. terminal)
+    "panel.background": "<%~ it.grayscale.backgroundLayer1 %>",
+    "panel.border": "<%~ it.grayscale.layerBorder %>",
+    "panel.dropBorder": "<%~ it.grayscale.layerBorder %>",
+
+    // menu (dropdowns at the top)
+    "menu.background": "<%~ it.grayscale.backgroundLayer1 %>",
+    "menu.border": "<%~ it.grayscale.backgroundLayer2 %>",
+    "menu.separatorBackground": "<%~ it.grayscale.backgroundLayerFocus %>",
+
+    // status bar (the bottom bar)
+    "statusBar.background": "<%~ it.grayscale.backgroundLayer1 %>",
+    "statusBar.foreground": "<%~ it.grayscale.foreground %>",
+    "statusBar.border": "<%~ it.grayscale.layerBorder %>",
+    "statusBar.debuggingBackground": "<%~ it.primary.magentaDark %>",
+    "statusBar.debuggingForeground": "<%~ it.grayscale.foreground %>",
+    "statusBar.noFolderBackground": "<%~ it.grayscale.backgroundLayer2 %>",
+    "statusBarItem.errorBackground": "<%~ it.primary.red %>",
+
+    // activity bar (where scm, search, etc. lives in)
+    "activityBar.background": "<%~ it.grayscale.backgroundLayer1 %>",
+    "activityBar.foreground": "<%~ it.grayscale.foreground %>",
+    "activityBar.inactiveForeground": "<%~ it.grayscale.foreground %>45",
+    "activityBar.activeBorder": "<%~ it.grayscale.foreground %>",
+    "activityBar.border": "<%~ it.grayscale.layerBorder %>",
+    "activityBarBadge.foreground": "<%~ it.grayscale.primaryContrast %>",
+    "activityBarBadge.background": "<%~ it.primary.magentaDark %>",
+
+    // source management control
+    "editorGutter.addedBackground": "<%~ it.primary.green %>50",
+    "editorGutter.deletedBackground": "<%~ it.primary.red %>50",
+    "editorGutter.modifiedBackground": "<%~ it.primary.yellow %>50",
+    "gitDecoration.stageDeletedResourceForeground": "<%~ it.primary.red %>",
+    "gitDecoration.stageModifiedResourceForeground": "<%~ it.primary.yellow %>",
+    "gitDecoration.addedResourceForeground": "<%~ it.primary.green %>",
+    "gitDecoration.deletedResourceForeground": "<%~ it.primary.red %>",
+    "gitDecoration.conflictingResourceForeground": "<%~ it.primary.red %>",
+    "gitDecoration.modifiedResourceForeground": "<%~ it.primary.yellow %>",
+    "gitDecoration.untrackedResourceForeground": "<%~ it.primary.green %>",
+    "gitDecoration.renamedResourceForeground": "<%~ it.primary.yellow %>",
+    "gitDecoration.ignoredResourceForeground": "<%~ it.grayscale.backgroundLayerFocus %>",
+    "merge.currentHeaderBackground": "<%~ it.primary.green %>98",
+    "merge.currentContentBackground": "<%~ it.primary.green %>40",
+    "merge.incomingHeaderBackground": "<%~ it.primary.yellow %>98",
+    "merge.incomingContentBackground": "<%~ it.primary.yellow %>40",
+    "merge.border": "<%~ it.grayscale.backgroundLayer2 %>",
+    "diffEditor.insertedTextBackground": "<%~ it.primary.green %>30",
+    "diffEditor.removedTextBackground": "<%~ it.primary.red %>30",
+
+    // icons
+    "problemsErrorIcon.foreground": "<%~ it.primary.red %>",
+    "problemsInfoIcon.foreground": "<%~ it.primary.blue %>",
+    "problemsWarningIcon.foreground": "<%~ it.primary.yellow %>",
+
+    // debugger
+    "debugToolBar.background": "<%~ it.grayscale.backgroundLayer2 %>",
+    "debugIcon.continueForeground": "<%~ it.primary.green %>",
+    "debugIcon.stepIntoForeground": "<%~ it.primary.green %>",
+    "debugIcon.stepBackForeground": "<%~ it.primary.red %>",
+    "debugIcon.stepOutForeground": "<%~ it.primary.red %>",
+    "debugIcon.stepOverForeground": "<%~ it.primary.yellow %>",
+    "debugIcon.pauseForeground": "<%~ it.primary.blue %>",
+    "debugIcon.disconnectForeground": "<%~ it.primary.red %>",
+    "debugIcon.restartForeground": "<%~ it.primary.blue %>",
+    "debugIcon.stopForeground": "<%~ it.primary.red %>",
+    "debugIcon.startForeground": "<%~ it.primary.green %>",
+
+    // debug console
+    "debugConsole.errorForeground": "<%~ it.primary.red %>",
+    "debugConsole.infoForeground": "<%~ it.primary.blue %>",
+    "debugConsole.warningForeground": "<%~ it.primary.yellow %>",
+    "debugConsole.sourceForeground": "<%~ it.grayscale.foreground %>",
+
+    // notifications
+    "notificationCenterHeader.background": "<%~ it.grayscale.layerBorder %>",
+    "notifications.background": "<%~ it.grayscale.backgroundLayer2 %>",
+    "notifications.foreground": "<%~ it.grayscale.foreground %>",
+    "notifications.border": "<%~ it.primary.magentaDark %>",
+    "notificationCenter.border": "<%~ it.primary.magentaDark %>",
+    "notificationLink.foreground": "<%~ it.primary.magentaLight %>",
+    "notificationsErrorIcon.foreground": "<%~ it.primary.red %>",
+    "notificationsInfoIcon.foreground": "<%~ it.primary.blue %>",
+    "notificationsWarningIcon.foreground": "<%~ it.primary.yellow %>",
+    "notificationToast.border": "<%~ it.primary.magentaDark %>",
+
+    // terminal
+    "terminal.ansiBlack": "<%~ it.grayscale.backgroundLayer1 %>",
+    "terminal.ansiBlue": "<%~ it.primary.blue %>",
+    "terminal.ansiBrightBlack": "#777777",
+    "terminal.ansiBrightBlue": "<%~ it.primary.blue %>",
+    "terminal.ansiCyan": "<%~ it.primary.blue %>",
+    "terminal.ansiBrightCyan": "<%~ it.primary.blue %>",
+    "terminal.ansiGreen": "<%~ it.primary.green %>",
+    "terminal.ansiBrightGreen": "<%~ it.primary.green %>",
+    "terminal.ansiMagenta": "<%~ it.primary.magentaLight %>",
+    "terminal.ansiBrightMagenta": "<%~ it.primary.magentaLight %>",
+    "terminal.ansiWhite": "<%~ it.grayscale.foreground %>",
+    "terminal.ansiBrightWhite": "<%~ it.grayscale.foreground %>",
+    "terminal.ansiYellow": "<%~ it.primary.yellow %>",
+    "terminal.ansiBrightYellow": "<%~ it.primary.yellow %>",
+    "terminal.ansiRed": "<%~ it.primary.red %>",
+    "terminal.ansiBrightRed": "<%~ it.primary.red %>",
+
+    // welcome page
+    "welcomePage.progress.background": "<%~ it.grayscale.layerBorder %>",
+    "welcomePage.tileBackground": "<%~ it.grayscale.backgroundLayer2 %>",
+    "welcomePage.progress.foreground": "<%~ it.primary.green %>"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>45"
+      }
+    },
+    {
+      "name": "Comment Annotations",
+      "scope": ["keyword.other.documentation.javadoc", "comment punctuation.definition.block.tag"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "Colors",
+      "scope": ["constant.other.color"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "<%~ it.primary.red %>"
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": ["keyword", "storage.modifier"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": ["punctuation", "meta.brace.square"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": [
+        "keyword.control",
+        "constant.other.color",
+        "meta.tag",
+        "punctuation.definition.tag",
+        "punctuation.separator.inheritance.php",
+        "punctuation.section.embedded",
+        "keyword.other.template",
+        "keyword.other.substitution"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
+      "settings": {
+        "foreground": "<%~ it.primary.red %>"
+      }
+    },
+    {
+      "name": "Function, Special Method",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "keyword.other.special-method",
+        "entity.name.operator.custom-literal"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "variable.parameter",
+        "keyword.other.unit",
+        "keyword.other"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.red %>"
+      }
+    },
+    {
+      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "scope": [
+        // "string",
+        "constant.other.symbol",
+        "constant.other.key",
+        "support.class.builtin",
+        "entity.other.inherited-class",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+    {
+      "name": "Class, Support",
+      "scope": [
+        "entity.name",
+        "support.type",
+        "support.class",
+        "support.other.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.yellow %>"
+      }
+    },
+    {
+      "name": "Entity Types",
+      "scope": ["support.type"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+    {
+      "name": "Language methods",
+      "scope": ["variable.language"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "<%~ it.primary.red %>"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+
+    {
+      "name": "HTML Attributes",
+      "scope": [
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "<%~ it.primary.yellow %>"
+      }
+    },
+
+    // Section: CSS
+    {
+      "name": "CSS Classes, IDs and Tags",
+      "scope": [
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.class",
+        "source.css entity.name.tag",
+        "source.html entity.name.tag.css",
+        "source.css punctuation.definition.entity",
+        "source.html punctuation.definition.entity"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "CSS Property Names",
+      "scope": ["support.type.property-name"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "CSS Property Values and Functions",
+      "scope": [
+        "source.css support.constant.property-value",
+        "source.css support.function.misc",
+        "source.html support.function.misc"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "CSS @-Rules and Interpolation",
+      "scope": [
+        "keyword.control.at-rule",
+        "keyword.control.at-rule punctuation",
+        "source.css punctuation.definition.interpolation.begin.bracket.curly",
+        "source.css punctuation.definition.interpolation.end.bracket.curly",
+        "source.html punctuation.definition.interpolation.begin.bracket.curly",
+        "source.html punctuation.definition.interpolation.end.bracket.curly"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+    {
+      "name": "CSS Variables",
+      "scope": ["source.css variable"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "CSS Colors",
+      "scope": ["source.css constant.other.color", "source.css punctuation.definition.constant"],
+      "settings": {
+        "foreground": "<%~ it.primary.brown %>"
+      }
+    },
+    {
+      "name": "CSS Functions",
+      "scope": ["source.css entity.name.function"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "CSS Units",
+      "scope": ["source.css keyword.other.unit"],
+      "settings": {
+        "foreground": "<%~ it.primary.brown %>"
+      }
+    },
+
+    // Section: Markup (What?)
+    {
+      "name": "Inserted",
+      "scope": ["markup.inserted"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+    {
+      "name": "Deleted",
+      "scope": ["markup.deleted"],
+      "settings": {
+        "foreground": "<%~ it.primary.red %>"
+      }
+    },
+    {
+      "name": "Changed",
+      "scope": ["markup.changed"],
+      "settings": {
+        "foreground": "<%~ it.primary.yellow %>"
+      }
+    },
+    {
+      "name": "Regular Expressions",
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "Escape Characters",
+      "scope": ["constant.character.escape"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "URL",
+      "scope": ["*url*", "*link*", "*uri*", "variable.other.link.underline"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>60",
+        "fontStyle": "italic underline"
+      }
+    },
+
+    // Section: JSON
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json punctuation.support.type.property-name.begin.json",
+        "source.json meta.structure.dictionary.json punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.begin.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.begin.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.begin.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.begin.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 5",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.begin.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 6",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.begin.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 7",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.begin.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "JSON Key - Level 8",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.begin.json",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "JSON - Constants",
+      "scope": ["source.json constant.language"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+
+    // Section: YAML
+    {
+      "name": "YAML - Name Tags / Keys",
+      "scope": ["source.yaml entity.name.tag"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "YAML - Unquoted Out",
+      "scope": ["source.yaml string.unquoted.plain.out"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "YAML - Unquoted Block",
+      "scope": ["source.yaml string.unquoted.block"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "YAML - Control Flow",
+      "scope": ["source.yaml keyword.control.flow"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+
+    // Section: Makdown
+    {
+      "name": "Markdown - Plain",
+      "scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "Markdown - Markup Raw Inline",
+      "scope": ["text.html.markdown markup.inline.raw.markdown"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "Markdown - Markup Raw Inline Punctuation",
+      "scope": [
+        "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
+      ],
+      "settings": {
+        "foreground": "#65737E"
+      }
+    },
+    {
+      "name": "Markdown - Heading",
+      "scope": [
+        "markdown.heading",
+        "markup.heading | markup.heading entity.name",
+        "markup.heading.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+    {
+      "name": "Markup - Italic",
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "Markup - Bold",
+      "scope": ["markup.bold", "markup.bold string"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "Markup - Bold-Italic",
+      "scope": [
+        "markup.bold markup.italic",
+        "markup.italic markup.bold",
+        "markup.quote markup.bold",
+        "markup.bold markup.italic string",
+        "markup.italic markup.bold string",
+        "markup.quote markup.bold string"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "Markup - Underline",
+      "scope": ["markup.underline"],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "<%~ it.primary.brown %>"
+      }
+    },
+    {
+      "name": "Markdown - Blockquote",
+      "scope": ["markup.quote punctuation.definition.blockquote.markdown"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.backgroundLayerFocus %>"
+      }
+    },
+    {
+      "name": "Markup - Quote",
+      "scope": ["markup.quote"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown - Link",
+      "scope": ["string.other.link.title.markdown"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "Markdown - Link Description",
+      "scope": ["string.other.link.description.title.markdown"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "Markdown - Link Anchor",
+      "scope": ["constant.other.reference.link.markdown"],
+      "settings": {
+        "foreground": "<%~ it.primary.yellow %>"
+      }
+    },
+    {
+      "name": "Markup - Raw Block",
+      "scope": ["markup.raw.block"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "Markdown - Raw Block Fenced",
+      "scope": ["markup.raw.block.fenced.markdown"],
+      "settings": {
+        "foreground": "<%~ it.primary.backgroundLayer2 %>50"
+      }
+    },
+    {
+      "name": "Markdown - Fenced Bode Block",
+      "scope": ["punctuation.definition.fenced.markdown"],
+      "settings": {
+        "foreground": "<%~ it.primary.backgroundLayer2 %>50"
+      }
+    },
+
+    // Section: HTML and JSX Markup
+    {
+      "name": "HTML - Start/End Tags & Punctuations",
+      "scope": [
+        "text.html punctuation.definition.tag.begin",
+        "text.html punctuation.definition.tag.end",
+        "text.xml punctuation.definition.tag",
+        "text.xml meta.tag.preprocessor",
+        "source.tsx punctuation.definition.tag.begin",
+        "source.tsx punctuation.definition.tag.end",
+        "source.jsx punctuation.definition.tag.begin",
+        "source.jsx punctuation.definition.tag.end"
+      ],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "HTML - Tags",
+      "scope": [
+        "text.html entity.name.tag",
+        "text.xml entity.name.tag.localname",
+        "text.xml entity.name.tag",
+        "source.tsx entity.name.tag",
+        "source.jsx entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "HTML - Functions",
+      "scope": ["text.html entity.name.function", "text.html meta.brace.round.js"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+
+    // Section: JSX Specific
+    {
+      "name": "JSX - Children",
+      "scope": ["source.tsx meta.jsx.children"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "JSX - Child Components",
+      "scope": ["source.tsx meta.jsx.children support.class"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+
+    // Section: Programming Basics
+    {
+      "name": "Basics - String",
+      "scope": [
+        "string",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
+        "punctuation.definition.string.template.begin",
+        "punctuation.definition.string.template.end"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.yellow %>"
+      }
+    },
+    {
+      "name": "Basics - Numbers",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "<%~ it.primary.brown %>"
+      }
+    },
+    {
+      "name": "Controls and Modifiers",
+      "scope": ["keyword.control", "storage.modifier"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "Storage Types",
+      "scope": ["storage.type"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "Decorators",
+      "scope": [
+        "source.ts punctuation.decorator.ts",
+        "source.ts meta.decorator.ts",
+        "source.python punctuation.definition.decorator",
+        "source.python entity.name.function.decorator",
+        "source.java punctuation.definition.annotation.java",
+        "source.java storage.type.annotation.java",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+    {
+      "name": "Parameters",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "Object Keys",
+      "scope": ["meta.object.member"],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": ["entity.name.type"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+
+    // Scope: JavaScript specific
+    {
+      "name": "JS - Template Literals",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+
+    // Scope: TypeScript specific
+    {
+      "name": "TypeScript - Dynamic Object Literals",
+      "scope": ["meta.array.literal.ts meta.brace.square.ts"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+
+    // Scope: Java specific
+    {
+      "name": "Java - Storage Types = Types",
+      "scope": ["source.java storage.type"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+
+    // Scope: SQL specific
+    {
+      "name": "SQL - Keywords",
+      "scope": ["source.sql keyword.other"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+
+    // Scope: Powershell specific
+    {
+      "name": "PS - Assignments",
+      "scope": ["source.powershell keyword.operator.assignment"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "PS - Variables",
+      "scope": [
+        "source.powershell punctuation.definition.variable",
+        "source.powershell variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "PS - Functions, Hashtables & Sub-Expressions",
+      "scope": [
+        "source.powershell support.function",
+        "source.powershell meta.hashtable",
+        "source.powershell keyword.other.hashtable.begin",
+        "source.powershell meta.group.simple.subexpression"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+
+    // Scope: Shell specific
+    {
+      "name": "Shell - Cases",
+      "scope": [
+        "source.shell meta.scope.case-pattern",
+        "source.shell punctuation.definition.case-pattern"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.brown %>"
+      }
+    },
+    {
+      "name": "Shell - Case Bodies",
+      "scope": ["source.shell meta.scope.case-clause-body"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "Shell - Logical Expressions",
+      "scope": ["source.shell meta.scope.logical-expression"],
+      "settings": {
+        "foreground": "<%~ it.primary.brown %>"
+      }
+    },
+    {
+      "name": "Shell - Normal & Positional Vars",
+      "scope": [
+        "source.shell variable.other.normal",
+        "source.shell variable.other.positional",
+        "source.shell punctuation.definition.variable"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.blue %>"
+      }
+    },
+    {
+      "name": "Shell - Special Vars",
+      "scope": ["source.shell variable.other.special"],
+      "settings": {
+        "foreground": "<%~ it.primary.red %>"
+      }
+    }
+  ]
+}

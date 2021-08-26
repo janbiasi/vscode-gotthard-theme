@@ -12,9 +12,9 @@
 ### Available theme variants
 
 - **Dark**: default dark theme, best to get started with
-- **Coming soon - Medium Dark**: a slightly lighter version of the dark theme
-- **Coming soon - Dark (High Contrast)**: same basis as the dark theme but with a higher contrast
-- **Coming soon - Light**: default light theme, try it if you want some variation during the day
+- **Medium Dark**: a slightly lighter version of the dark theme
+- **Light**: default light theme, try it if you want some variation during the day
+- **Coming soon – Dark (High Contrast)**: same basis as the dark theme but with a higher contrast
 
 ### Optimized languages (A - Z)
 
