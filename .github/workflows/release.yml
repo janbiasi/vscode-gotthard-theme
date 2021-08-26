@@ -38,6 +38,12 @@ jobs:
       - name: Generate Themes
         run: npm run generate
 
+      - name: Push Theme Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: themes-artifact-${{ env.GITHUB_RUN_ID }}
+          path: dist
+
       - name: Package Extension
         run: npm run package
 
