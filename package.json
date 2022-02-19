@@ -23,7 +23,8 @@
     "publish": "vsce publish",
     "prettier": "prettier -w \"./**/*.{json,js,md,yml}\"",
     "release": "semantic-release",
-    "generate": "ts-node ./src/generator.ts"
+    "generate": "ts-node ./src/generator.ts",
+    "develop": "nodemon"
   },
   "engines": {
     "vscode": "^1.58.0"
@@ -57,10 +58,13 @@
     "@semantic-release/commit-analyzer": "8.0.1",
     "@semantic-release/git": "9.0.0",
     "@semantic-release/release-notes-generator": "9.0.3",
+    "@types/graphql": "14.5.0",
     "@types/node": "16.7.1",
     "eta": "1.12.3",
     "fs-extra": "10.0.0",
+    "graphql-request": "4.0.0",
     "husky": "7.0.1",
+    "nodemon": "2.0.15",
     "prettier": "2.3.2",
     "semantic-release": "17.4.4",
     "ts-node": "10.1.0",
