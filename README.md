@@ -3,6 +3,8 @@
 
 # Gotthard Theme
 
+A fresh and relaxing theme for Visual Studio Code with a lot of [language-](#optimized-languages-a---z) and [framework optimizations](#optimized-frameworks-a---z) to provide a unified and accessible developer experience.
+
 > The Gotthard (Italian: Gottardo, German: Gotthard) at 2,106 m (6,909 ft) is a mountain pass in the Alps traversing the Saint-Gotthard Massif and connecting northern and southern Switzerland.
 
 ##### Color Blind Friendly
