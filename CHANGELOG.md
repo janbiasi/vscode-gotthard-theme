@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.6.0...v1.7.0) (2022-02-19)
+
+
+### Features
+
+* add improved support for GraphQL ([8c175db](https://github.com/janbiasi/vscode-gotthard-theme/commit/8c175db6d88897ceab60bc1c8b4320634929309f))
+* add improved support for PHP ([3aace74](https://github.com/janbiasi/vscode-gotthard-theme/commit/3aace74f836603a4a757ccc9a2b96b14becfb534))
+
 # [1.6.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.5.1...v1.6.0) (2021-08-26)
 
 
