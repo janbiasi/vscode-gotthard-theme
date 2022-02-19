@@ -55,21 +55,21 @@ The theme is built to apply basic syntax highlighting to the most languages. Alt
 - XML
 - YAML
 
-#### Pending optimizations 2.0 (10-2021)
+#### Pending optimizations 2.0
 
-- C#
 - Kotlin
 - Prisma
+- Dart
 
-#### Pending optimizations 3.0 (12-2021)
+#### Pending optimizations 3.0
 
 - Bazel
 - Go
 - Vue.js
 
-#### Pending optimizations 4.0 (02-2022)
+#### Pending optimizations 4.0
 
-- Dart
 - Flow
 - Rust
 - Scala
+- C#
