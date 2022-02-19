@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.7.0...v1.8.0) (2022-02-19)
+
+
+### Features
+
+* add vscodethemes link ([0d06ee3](https://github.com/janbiasi/vscode-gotthard-theme/commit/0d06ee3dc5bb55d0ddd64be0d2c07bda2868e969))
+
 # [1.7.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.6.0...v1.7.0) (2022-02-19)
 
 
