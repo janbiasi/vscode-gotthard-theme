@@ -22,6 +22,7 @@ The [theme colors](https://github.com/janbiasi/vscode-gotthard-theme/blob/main/d
 - [Marketplace Page](https://marketplace.visualstudio.com/items?itemName=janbiasi.gotthard-theme)
 - [VSIX Bundle (latest)](https://github.com/janbiasi/vscode-gotthard-theme/tree/main/bin)
 - [All Releases](https://github.com/janbiasi/vscode-gotthard-theme/releases)
+- [VSCode Themes](https://vscodethemes.com/e/JanBiasi.gotthard-theme)
 
 ## Available theme variants
 
