@@ -777,11 +777,11 @@
       "name": "Markdown - Heading",
       "scope": [
         "markup.heading.markdown",
-        "markup.heading.markdown punctuation",
+        "markup.heading.markdown punctuation.definition",
         "markup.heading.markdown entity.name"
       ],
       "settings": {
-        "foreground": "<%~ it.primary.green %>"
+        "foreground": "<%~ it.primary.magentaDark %>"
       }
     },
     {
@@ -789,6 +789,8 @@
       "scope": [
         "markup.bold",
         "markup.italic",
+        "markup.strikethrough",
+        "markup punctuation.definition.strikethrough",
         "markup punctuation.definition.bold",
         "markup punctuation.definition.italic"
       ],
@@ -799,6 +801,7 @@
     {
       "name": "Markdown - Link Title",
       "scope": [
+        "string.other.link.title.markdown",
         "markup string.other.link.title",
         "markup punctuation.definition.string.begin",
         "markup punctuation.definition.string.end"
@@ -808,7 +811,21 @@
       }
     },
     {
-      "name": "Markdown - Link",
+      "name": "Markdown - Inline embed Punctuation",
+      "scope": [
+        "markup punctuation.definition.link.title.begin",
+        "markup punctuation.definition.link.title.end",
+        "punctuation.definition.link.title.begin.markdown",
+        "punctuation.definition.link.title.end.markdown",
+        "meta.link.inline.markdown punctuation",
+        "meta.image.inline.markdown punctuation"
+      ],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>90"
+      }
+    },
+    {
+      "name": "Markdown - Link URL",
       "scope": ["markup.underline.link"],
       "settings": {
         "foreground": "<%~ it.grayscale.foreground %>80",
@@ -817,9 +834,17 @@
     },
     {
       "name": "Markdown - Meta Data",
-      "scope": ["markup punctuation.definition.metadata"],
+      "scope": ["markup punctuation.definition.metadata", "meta.separator.markdown"],
       "settings": {
         "foreground": "<%~ it.grayscale.foreground %>80"
+      }
+    },
+    {
+      "name": "Markdown - Quotes",
+      "scope": ["markup punctuation.definition.quote", "markup.quote.markdown"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>90",
+        "fontStyle": "italic"
       }
     },
     {
@@ -834,11 +859,24 @@
       }
     },
     {
-      "name": "Markdown - Quotes",
-      "scope": ["markup punctuation.definition.quote", "markup.quote.markdown"],
+      "name": "Markdown - Code Block",
+      "scope": ["markup fenced_code.block", "markup fenced_code.block punctuation.definition"],
       "settings": {
-        "foreground": "<%~ it.grayscale.foreground %>90",
-        "fontStyle": "italic"
+        "foreground": "<%~ it.grayscale.foreground %>90"
+      }
+    },
+    {
+      "name": "Markdown - Code Block Language",
+      "scope": ["markup fenced_code.block.language"],
+      "settings": {
+        "foreground": "<%~ it.primary.brown %>"
+      }
+    },
+    {
+      "name": "Markdown - Lists",
+      "scope": ["punctuation.definition.list.begin.markdown"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
       }
     },
 
