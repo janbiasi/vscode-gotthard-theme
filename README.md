@@ -34,7 +34,6 @@ The theme is built to apply basic syntax highlighting to the most languages. Alt
 
 > If you miss a certain language optimization, please [open a feature request](https://github.com/janbiasi/vscode-gotthard-theme/issues/new?assignees=&labels=language-optimization&template=language-optimization.md&title=Language+Optimization+%E2%80%93+%3Clanguage%3E) on the GitHub repository. If you experience any issues while using the theme please also let us know by submitting a [bug report](https://github.com/janbiasi/vscode-gotthard-theme/issues/new?assignees=&labels=bug&template=bug-report.md&title=Issue+with+...) on the GitHub repository.
 
-- Angular (_requires extension [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)_)
 - CSS
 - Docker
 - Gradle (_requires extension [Gradle Language Support](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)_)
@@ -55,6 +54,14 @@ The theme is built to apply basic syntax highlighting to the most languages. Alt
 - TypeScript
 - XML
 - YAML
+
+## Optimized Frameworks (A - Z)
+
+The theme is built to apply basic syntax highlighting to the most languages. However there are some frameworks which have different syntax or different feature-sets which have been optimized to provide a unified development experience. Find the list with all optimized frameworks sorted alphabetically below.
+
+> If you miss a certain framework optimization, please [open a feature request](https://github.com/janbiasi/vscode-gotthard-theme/issues/new?assignees=&labels=framework-optimization&template=framework-optimization.md&title=Framework+Optimization+%E2%80%93+%3Clanguage%3E) on the GitHub repository. If you experience any issues while using the theme please also let us know by submitting a [bug report](https://github.com/janbiasi/vscode-gotthard-theme/issues/new?assignees=&labels=bug&template=bug-report.md&title=Issue+with+...) on the GitHub repository.
+
+- Angular (_requires extension [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)_)
 
 #### Pending optimizations 2.0
 
