@@ -1,0 +1,36 @@
+query HeroNameAndFriends($episode: Episode) {
+    hero(episode: $episode) {
+        name
+        friends {
+            name
+        }
+    }
+}
+
+query HeroWithDirectives($episode: Episode, $withFriends: Boolean!) {
+    hero(episode: $episode) {
+        name
+        friends @include(if: $withFriends) {
+            name
+        }
+    }
+}
+
+mutation CreateReviewForEpisode($ep: Episode!, $review: ReviewInput!) {
+    createReview(episode: $ep, review: $review) {
+        stars
+        commentary
+    }
+}
+
+query HeroForEpisode($ep: Episode!) {
+    hero(episode: $ep) {
+        name
+        ... on Droid {
+            primaryFunction
+        }
+        ... on Human {
+            height
+        }
+    }
+}

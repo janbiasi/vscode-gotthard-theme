@@ -1147,6 +1147,65 @@
       "settings": {
         "foreground": "<%~ it.primary.blue %>"
       }
+    },
+
+    // Specific: GraphQL
+    {
+      "name": "GraphQL - Keywords",
+      "scope": [
+        "keyword.operation.graphql",
+        "keyword.fragment.graphql",
+        "keyword.on.graphql",
+        "entity.name.function.directive.graphql"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "GraphQL - Entities",
+      "scope": ["entity.name.fragment.graphql"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "GraphQL - Function- and Fragment Names",
+      "scope": ["entity.name.function.graphql", "entity.name.fragment.graphql"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+    {
+      "name": "GraphQL - Aliases",
+      "scope": ["string.unquoted.alias.graphql"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "GraphQL - Fragment Variables",
+      "scope": ["variable.fragment.graphql"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+    {
+      "name": "GraphQL - Arguments",
+      "scope": [
+        "meta.variables.graphql variable.parameter.graphql",
+        "meta.arguments.graphql variable.graphql"
+      ],
+      "settings": {
+        "foreground": "<%~ it.primary.brown %>"
+      }
+    },
+    {
+      "name": "GraphQL - Parameters",
+      "scope": ["variable.parameter.graphql"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
     }
   ]
 }

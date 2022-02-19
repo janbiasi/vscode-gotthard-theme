@@ -38,6 +38,7 @@ The theme is built to apply basic syntax highlighting to the most languages. Alt
 - CSS
 - Docker
 - Gradle (_requires extension [Gradle Language Support](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)_)
+- GraphQL (_requires extension [GraphQL](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql)_)
 - HTML
 - Java
 - JavaScript
