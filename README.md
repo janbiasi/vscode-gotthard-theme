@@ -45,6 +45,7 @@ The theme is built to apply basic syntax highlighting to the most languages. Alt
 - JSON
 - JSX
 - LESS
+- PHP
 - PowerShell (_requires extension [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)_)
 - Python (_requires extension [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)_)
 - SASS
@@ -66,6 +67,7 @@ The theme is built to apply basic syntax highlighting to the most languages. Alt
 - Bazel
 - Go
 - Vue.js
+- Twig
 
 #### Pending optimizations 4.0
 

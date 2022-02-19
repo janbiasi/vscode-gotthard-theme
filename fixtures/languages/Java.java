@@ -10,7 +10,7 @@ abstract class Controller {}
 
 /**!
  * Basic JavaDoc stuffz {@link SomeOtherController}
- * 
+ *
  * @author Jan Biasi
  * @version 1.0
  * @see com.spring;
@@ -22,7 +22,7 @@ class JavaController extends Controller implements BaseController {
     private final int code = 1000;
 
     private List<String> list = new ArrayList<>();
-    
+
     // This is a comment
 
     @GetMapping("/test")

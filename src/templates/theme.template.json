@@ -1244,6 +1244,50 @@
       "settings": {
         "foreground": "<%~ it.primary.magentaLight %>"
       }
+    },
+
+    // Language: PHP
+    {
+      "name": "PHP - PHP Tag",
+      "scope": ["punctuation.section.embedded"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>80"
+      }
+    },
+    {
+      "name": "PHP - Root Keywords",
+      "scope": ["keyword.other.namespace.php", "keyword.other.use.php", "keyword.other.new.php"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaDark %>"
+      }
+    },
+    {
+      "name": "PHP - Namespaces",
+      "scope": ["entity.name.type.namespace", "support.other.namespace.php"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
+    },
+    {
+      "name": "PHP - Namespace Separator",
+      "scope": ["punctuation.separator.inheritance.php"],
+      "settings": {
+        "foreground": "<%~ it.grayscale.foreground %>"
+      }
+    },
+    {
+      "name": "PHP - Classes and Types",
+      "scope": ["support.class.php", "keyword.other.type.php"],
+      "settings": {
+        "foreground": "<%~ it.primary.green %>"
+      }
+    },
+    {
+      "name": "PHP - Function Names",
+      "scope": ["entity.name.function.php"],
+      "settings": {
+        "foreground": "<%~ it.primary.magentaLight %>"
+      }
     }
   ]
 }
