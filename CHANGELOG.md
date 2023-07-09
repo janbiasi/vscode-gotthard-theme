@@ -1,3 +1,15 @@
+# [1.9.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.8.1...v1.9.0) (2023-07-09)
+
+
+### Bug Fixes
+
+* update node version to v20, bump dependencies ([6ebbb4c](https://github.com/janbiasi/vscode-gotthard-theme/commit/6ebbb4c1cf1529b095951abf9f790c2b9c444cda))
+
+
+### Features
+
+* add support for rust and toml ([902687b](https://github.com/janbiasi/vscode-gotthard-theme/commit/902687be3d332fdccb18aaa901dc53e716560d93))
+
 ## [1.8.1](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.8.0...v1.8.1) (2023-07-09)
 
 
