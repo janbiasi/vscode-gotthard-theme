@@ -1288,6 +1288,66 @@
       "settings": {
         "foreground": "<%~ it.primary.magentaLight %>"
       }
+    },
+
+    // Language: TOML
+    {
+        "name": "TOML - Table property name",
+        "scope": ["source.toml support.type.property-name.table.toml", "source.toml punctuation.definition.table"],
+        "settings": {
+            "foreground": "<%~ it.primary.green %>"
+        }
+    },
+    {
+        "name": "TOML - Objects",
+        "scope": ["source.toml punctuation.definition.table.inline.toml"],
+        "settings": {
+            "foreground": "<%~ it.primary.magentaDark %>",
+        }
+    },
+    {
+        "name": "TOML - Arrays",
+        "scope": ["source.toml punctuation.definition.array"],
+        "settings": {
+            "foreground": "<%~ it.primary.magentaLight %>"
+        }
+    },
+
+    // Language: Rust
+    {
+        "name": "Rust - Strings",
+        "scope": ["source.rust string.quoted.double", "source.rust punctuation.definition.string"],
+        "settings": {
+            "foreground": "<%~ it.primary.yellow %>",
+        }
+    },
+    {
+        "name": "Rust - Other Keywords",
+        "scope": ["source.rust keyword.other"],
+        "settings": {
+            "foreground": "<%~ it.primary.magentaDark %>"
+        }
+    },
+    {
+        "name": "Rust - Attributes",
+        "scope": ["source.rust meta.attribute"],
+        "settings": {
+            "foreground": "<%~ it.primary.magentaDark %>"
+        }
+    },
+    {
+        "name": "Rust - Attribute Brackets",
+        "scope": ["source.rust punctuation.brackets.attribute"],
+        "settings": {
+            "foreground": "<%~ it.primary.blue %>"
+        }
+    },
+    {
+        "name": "Rust - Interpolation",
+        "scope": ["source.rust meta.interpolation"],
+        "settings": {
+            "foreground": "<%~ it.primary.blue %>"
+        }
     }
   ]
 }

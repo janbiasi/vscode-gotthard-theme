@@ -50,10 +50,12 @@ The theme is built to apply basic syntax highlighting to the most languages. Alt
 - PHP
 - PowerShell (_requires extension [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)_)
 - Python (_requires extension [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)_)
+- Rust (_requires extensions [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)_)
 - SASS
 - SCSS
 - Shell
 - SQL
+- TOML (_requires extension [Even better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)_)
 - TypeScript
 - XML
 - YAML
@@ -66,22 +68,15 @@ The theme is built to apply basic syntax highlighting to the most languages. How
 
 - Angular (_requires extension [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)_)
 
-#### Pending optimizations 2.0
+#### Pending optimizations
 
 - Kotlin
 - Prisma
 - Dart
-
-#### Pending optimizations 3.0
-
 - Bazel
 - Go
 - Vue.js
 - Twig
-
-#### Pending optimizations 4.0
-
 - Flow
-- Rust
 - Scala
 - C#
