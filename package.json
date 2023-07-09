@@ -3,7 +3,7 @@
   "name": "gotthard-theme",
   "displayName": "Gotthard Theme",
   "description": "A nature inspired matte theme for everyday use, colorblind-friendly.",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "icon": "assets/icon.png",
   "publisher": "JanBiasi",
   "author": {
@@ -29,7 +29,9 @@
   "engines": {
     "vscode": "^1.58.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "contributes": {
     "themes": [
       {

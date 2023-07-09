@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.8.0...v1.8.1) (2023-07-09)
+
+
+### Bug Fixes
+
+* update node version to v20, bump dependencies ([3fa1bc5](https://github.com/janbiasi/vscode-gotthard-theme/commit/3fa1bc59d1bf67ee75a1b5207f45dcac183a3a95))
+
 # [1.8.0](https://github.com/janbiasi/vscode-gotthard-theme/compare/v1.7.0...v1.8.0) (2022-02-19)
 
 
